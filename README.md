@@ -214,22 +214,22 @@
           <div>
             <label class="block text-sm font-bold uppercase text-titanium mb-3" data-en="1. Select Vehicle Category:" data-ar="1. اختر فئة وحجم السيارة:">1. Select Vehicle Category:</label>
             <select id="car-size" onchange="calculateSmartQuote()" class="w-full p-4 rounded-2xl bg-obsidian text-white text-base font-semibold focus:border-electric focus:outline-none">
-              <option value="1.0">Sedan / Coupe / Hatchback (صالون / هاتشباك)</option>
-              <option value="1.25">Mid-Size SUV / Crossover (جيب وسط / كروس أوفر)</option>
-              <option value="1.45">Large SUV / 4x4 / Pickup (دفع رباعي كبير / بكب)</option>
+              <option value="1.0" data-en="Sedan / Coupe / Hatchback" data-ar="صالون / هاتشباك">Sedan / Coupe / Hatchback</option>
+              <option value="1.25" data-en="Mid-Size SUV / Crossover" data-ar="جيب وسط / كروس أوفر">Mid-Size SUV / Crossover</option>
+              <option value="1.45" data-en="Large SUV / 4x4 / Pickup" data-ar="دفع رباعي كبير / بكب">Large SUV / 4x4 / Pickup</option>
             </select>
           </div>
 
           <div>
             <label class="block text-sm font-bold uppercase text-titanium mb-3" data-en="2. Select Primary Treatment:" data-ar="2. اختر الباقة أو الخدمة الأساسية:">2. Select Primary Treatment:</label>
             <select id="service-type" onchange="calculateSmartQuote()" class="w-full p-4 rounded-2xl bg-obsidian text-white text-base font-semibold focus:border-electric focus:outline-none">
-              <option value="detail">VIP Interior Dry Clean & Sterilization (دراي كلين وتعقيم داخلي فاخر)</option>
-              <option value="oils">German Sampingko Motor Oils (زيوت سينفنكو الألمانية)</option>
-              <option value="additives">Advanced Performance Additives (محسنات أداء وعزم المحرك)</option>
-              <option value="catalytic">Catalytic Converter Deep Cleaning (تنظيف وعلاج الكتلايزر)</option>
-              <option value="combustion">Combustion Chamber & Valve Service (خدمة منظومة الاحتراق)</option>
-              <option value="polish">Multi-Stage Professional Polish (بولش وتصحيح طلاء احترافي)</option>
-              <option value="ceramic" selected>9H Nano-Ceramic Armor Coating (نانوسيراميك حماية طلاء 9H)</option>
+              <option value="detail" data-en="VIP Interior Dry Clean & Sterilization" data-ar="دراي كلين وتعقيم داخلي فاخر">VIP Interior Dry Clean & Sterilization</option>
+              <option value="oils" data-en="German Sampingko Motor Oils" data-ar="زيوت سينفنكو الألمانية">German Sampingko Motor Oils</option>
+              <option value="additives" data-en="Advanced Performance Additives" data-ar="محسنات أداء وعزم المحرك">Advanced Performance Additives</option>
+              <option value="catalytic" data-en="Catalytic Converter Deep Cleaning" data-ar="تنظيف وعلاج الكتلايزر">Catalytic Converter Deep Cleaning</option>
+              <option value="combustion" data-en="Combustion Chamber & Valve Service" data-ar="خدمة منظومة الاحتراق">Combustion Chamber & Valve Service</option>
+              <option value="polish" data-en="Multi-Stage Professional Polish" data-ar="بولش وتصحيح طلاء احترافي">Multi-Stage Professional Polish</option>
+              <option value="ceramic" selected data-en="9H Nano-Ceramic Armor Coating" data-ar="نانوسيراميك حماية طلاء 9H">9H Nano-Ceramic Armor Coating</option>
             </select>
           </div>
 
@@ -307,4 +307,308 @@
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
           <span class="text-titanium" data-en="Ozone & Steam Treatment" data-ar="تعقيم شامل بالبخار والأوزون">Ozone & Steam Treatment</span>
-          <a href="
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">Inquire →</a>
+        </div>
+      </div>
+
+      <!-- Service 2: Oils -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
+        <div>
+          <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
+            <img src="secondphoto2.png" alt="German Sampingko Oils" class="w-full h-full object-cover hover:scale-105 transition duration-500" />[cite: 5]
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="German Engineering" data-ar="الهندسة الألمانية الأصلية">German Engineering</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="German Sampingko Motor Oils" data-ar="زيوت سينفنكو الألمانية المعتمدة">German Sampingko Motor Oils</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Official German Sampingko synthetic motor oils engineered for extreme thermal stability, reduced friction, and maximum engine lifespan." data-ar="زيوت محركات سينفنكو الألمانية الأصلية والمعتمدة لتوفير ثبات حراري فائق، تقليل الاحتكاك، ومضاعفة العمر الافتراضي للمحرك.">
+            Official German Sampingko synthetic motor oils engineered for extreme thermal stability, reduced friction, and maximum engine lifespan.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium" data-en="100% German Import" data-ar="استيراد ألماني معتمد">100% German Import</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">Inquire →</a>
+        </div>
+      </div>
+
+      <!-- Service 3: Performance Additives -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
+        <div>
+          <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
+            <img src="thirdphoto3.png" alt="Performance Additives" class="w-full h-full object-cover hover:scale-105 transition duration-500" />[cite: 6]
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Power & Efficiency Boost" data-ar="طاقة وكفاءة مضاعفة">Power & Efficiency Boost</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Advanced Performance Additives" data-ar="محسنات أداء وعزم المحرك">Advanced Performance Additives</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="High-grade chemical additives designed to clean fuel injectors, boost horsepower, and optimize fuel economy instantly." data-ar="إضافات ومحسنات كيميائية عالية الجودة لتنظيف بخاخات الوقود، رفع الأحصنة، وتقليل استهلاك الوقود بشكل ملحوظ.">
+            High-grade chemical additives designed to clean fuel injectors, boost horsepower, and optimize fuel economy instantly.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium" data-en="Maximum Horsepower" data-ar="استعادة عزم وسرعة السيارة">Maximum Horsepower</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">Inquire →</a>
+        </div>
+      </div>
+
+      <!-- Service 4: Catalytic Converter Cleaning -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
+        <div>
+          <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
+            <img src="firstphoto1.png" alt="Catalytic Converter Cleaning" class="w-full h-full object-cover hover:scale-105 transition duration-500" />[cite: 4]
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Exhaust & Emission Care" data-ar="صيانة نظام العادم والبيئة">Exhaust & Emission Care</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Catalytic Converter Deep Cleaning" data-ar="تنظيف وعلاج الكتلايزر المتطور">Catalytic Converter Deep Cleaning</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Specialized chemical and ultrasonic treatment to dissolve carbon buildup, clear exhaust restrictions, and resolve check-engine issues." data-ar="معالجة متخصصة لإذابة وتفكيك الترسبات الكربونية المتراكمة في الكتلايزر، تحسين تدفق العادم، وحل مشاكل تنبيه المحرك.">
+            Specialized chemical and ultrasonic treatment to dissolve carbon buildup, clear exhaust restrictions, and resolve check-engine issues.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium" data-en="Exhaust Restoration" data-ar="استعادة تدفق العادم السلس">Exhaust Restoration</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">Inquire →</a>
+        </div>
+      </div>
+
+      <!-- Service 5: Combustion System -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
+        <div>
+          <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
+            <img src="secondphoto2.png" alt="Combustion System Care" class="w-full h-full object-cover hover:scale-105 transition duration-500" />[cite: 5]
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Engine Chamber Tuning" data-ar="تنقية غرفة الاحتراق">Engine Chamber Tuning</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Combustion Chamber & Valve Service" data-ar="خدمة منظومة الاحتراق الشاملة">Combustion Chamber & Valve Service</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Professional carbon decarbonization for intake valves, combustion chambers, and fuel systems to ensure optimal engine heartbeat." data-ar="تنظيف إحترافي لإزالة الكربون عن الصمامات، حجرة الاحتراق، والبخاخات لضمان احتراق وقود مثالي وأداء سلس للمحرك.">
+            Professional carbon decarbonization for intake valves, combustion chambers, and fuel systems to ensure optimal engine heartbeat.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium" data-en="Optimal Engine Rhythm" data-ar="احتراق نقي واستهلاك اقتصادي">Optimal Engine Rhythm</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">Inquire →</a>
+        </div>
+      </div>
+
+      <!-- Service 6: Professional Polish -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
+        <div>
+          <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
+            <img src="thirdphoto3.png" alt="Professional Polish" class="w-full h-full object-cover hover:scale-105 transition duration-500" />[cite: 6]
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Showroom Paint Restoration" data-ar="استعادة لمعة الوكالة">Showroom Paint Restoration</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Multi-Stage Professional Polish" data-ar="بولش وتصحيح طلاء احترافي">Multi-Stage Professional Polish</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Precision multi-stage machine compounding to eliminate swirl marks, oxidation, and scratches, bringing back a deep mirror gloss." data-ar="تلميع ميكانيكي دقيق على عدة مراحل لإزالة دوائر الغسيل، الأكسدة، والخدوش السطحية وإعادة بريق ولمعان مرآتي للطلاء.">
+            Precision multi-stage machine compounding to eliminate swirl marks, oxidation, and scratches, bringing back a deep mirror gloss.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium" data-en="Mirror Gloss Finish" data-ar="ضمان لمعان خارق وخالٍ من الدوائر">Mirror Gloss Finish</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">Inquire →</a>
+        </div>
+      </div>
+
+      <!-- Service 7: Nano-Ceramic -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden lg:col-span-2 lg:max-w-xl lg:mx-auto">
+        <div>
+          <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
+            <img src="firstphoto1.png" alt="9H Nano-Ceramic Shield" class="w-full h-full object-cover hover:scale-105 transition duration-500" />[cite: 4]
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Ultimate Liquid Glass Armor" data-ar="الدرع الكريستالي الفائق">Ultimate Liquid Glass Armor</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="9H Nano-Ceramic Armor Coating" data-ar="نانوسيراميك حماية طلاء 9H">9H Nano-Ceramic Armor Coating</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Permanent 9H molecular bond providing extreme hydrophobic protection against UV rays, acid rain, bird droppings, and harsh weather." data-ar="طبقة نانوسيراميك جزيئية صلبة (9H) توفر درع حماية هيدروفوبيك دائم ضد أشعة الشمس، الأمطار الحمضية، والعوامل البيئية القاسية.">
+            Permanent 9H molecular bond providing extreme hydrophobic protection against UV rays, acid rain, bird droppings, and harsh weather.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium" data-en="Extreme Hydrophobic Defense" data-ar="مقاومة فائقة للمياه والأوساخ">Extreme Hydrophobic Defense</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">Inquire →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Location, Hours & Direct Contact Section -->
+  <section id="location" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left rtl:text-right">
+    <div class="grid lg:grid-cols-12 gap-8 items-stretch">
+      
+      <div class="lg:col-span-5 glass-panel rounded-3xl p-8 flex flex-col justify-between space-y-6">
+        <div class="space-y-4">
+          <span class="text-xs font-bold uppercase tracking-widest text-electric" data-en="Visit Our Studio" data-ar="تفضل بزيارة مركزنا">Visit Our Studio</span>
+          <h2 class="text-3xl font-extrabold text-white" data-en="Location & Direct Contact" data-ar="الموقع وأرقام التواصل">Location & Direct Contact</h2>
+          <p class="text-sm text-titanium" data-en="Drop by for German Sampingko products and professional car care services in Al-Karak." data-ar="تفضل بزيارتنا للحصول على منتجات سينفنكو الألمانية وخدمات العناية بالسيارات في الكرك.">
+            Drop by for German Sampingko products and professional car care services in Al-Karak.
+          </p>
+
+          <div class="space-y-4 pt-3 text-sm">
+            <div class="flex items-start gap-3">
+              <span class="text-electric text-lg">📍</span>
+              <div>
+                <div class="font-bold text-white" data-en="Studio Address" data-ar="العنوان">Studio Address</div>
+                <div class="text-titanium" data-en="Al-Karak, Jordan — Adaileh Car Care Center" data-ar="الأردن، الكرك — مركز العضايلة للعناية بالسيارات">Al-Karak, Jordan — Adaileh Car Care Center</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-electric text-lg">📞</span>
+              <div>
+                <div class="font-bold text-white" data-en="Direct Phone & WhatsApp" data-ar="الهاتف والواتساب المباشر">Direct Phone & WhatsApp</div>
+                <a href="tel:+962776999555" class="text-cyber font-bold hover:underline">+962 77 699 9555</a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-electric text-lg">🕒</span>
+              <div>
+                <div class="font-bold text-white" data-en="Working Hours" data-ar="ساعات العمل">Working Hours</div>
+                <div class="text-titanium" data-en="Saturday – Thursday: 9:00 AM – 9:00 PM" data-ar="يومياً من الساعة 9:00 صباحاً حتى 9:00 مساءً">Saturday – Thursday: 9:00 AM – 9:00 PM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-4 border-t border-white/10 flex flex-wrap gap-3">
+          <a href="https://wa.me/962776999555?text=مرحباً%20مركز%20العضايلة،%20أود%20الاستفسار" target="_blank" class="w-full cyber-gradient text-center py-3.5 rounded-xl text-xs font-bold text-white shadow-lg" data-en="💬 Contact via WhatsApp" data-ar="💬 تواصل عبر واتساب">
+            💬 Contact via WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7 glass-panel rounded-3xl overflow-hidden min-h-[380px] border border-white/10">
+        <iframe
+          title="Adaileh Car Care Map"
+          src="https://www.google.com/maps?q=Al-Karak,Jordan&output=embed"
+          class="w-full h-full min-h-[380px] border-0 grayscale invert opacity-90 contrast-125"
+          loading="lazy">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-obsidian border-t border-white/10 py-10 text-center text-xs text-titanium">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div class="font-bold text-white" data-en="© 2026 ADAILEH CAR CARE CENTER. All Rights Reserved." data-ar="© 2026 مركز العضايلة للعناية بالمركبات - الكرك. جميع الحقوق محفوظة.">
+        © 2026 ADAILEH CAR CARE CENTER. All Rights Reserved.
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="tel:+962776999555" class="hover:text-cyber transition">0776999555</a>
+        <a href="#services" class="hover:text-cyber transition" data-en="Services" data-ar="الخدمات">Services</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let isArabic = false;
+    const WHATSAPP_NUMBER = "962776999555";
+
+    const packageData = {
+      "detail": {
+        enTitle: "VIP Interior Dry Clean & Sterilization",
+        arTitle: "دراي كلين وتعقيم داخلي فاخر",
+        enDesc: "Deep multi-stage steam and ozone extraction for seats, carpets, headliners, and dashboard to eliminate stubborn stains and restore freshness.",
+        arDesc: "تنظيف وتفصيل داخلي عميق بالبخار وتقنية الأوزون للمقاعد، الأرضيات، السقف، والديكورات لإزالة أتعس البقع وتوفير انتعاش مثالي.",
+        basePrice: 65,
+        enTime: "⏱️ 5–7 Hours",
+        arTime: "⏱️ 5–7 ساعات"
+      },
+      "oils": {
+        enTitle: "German Sampingko Motor Oils",
+        arTitle: "زيوت سينفنكو الألمانية المعتمدة",
+        enDesc: "Official German Sampingko synthetic motor oils engineered for extreme thermal stability, reduced friction, and maximum engine lifespan.",
+        arDesc: "زيوت محركات سينفنكو الألمانية الأصلية والمعتمدة لتوفير ثبات حراري فائق، تقليل الاحتكاك، ومضاعفة العمر الافتراضي للمحرك.",
+        basePrice: 45,
+        enTime: "⏱️ 1 Hour",
+        arTime: "⏱️ ساعة واحدة"
+      },
+      "additives": {
+        enTitle: "Advanced Performance Additives",
+        arTitle: "محسنات أداء وعزم المحرك",
+        enDesc: "High-grade chemical additives designed to clean fuel injectors, boost horsepower, and optimize fuel economy instantly.",
+        arDesc: "إضافات ومحسنات كيميائية عالية الجودة لتنظيف بخاخات الوقود، رفع الأحصنة، وتقليل استهلاك الوقود بشكل ملحوظ.",
+        basePrice: 30,
+        enTime: "⏱️ 30 Mins",
+        arTime: "⏱️ 30 دقيقة"
+      },
+      "catalytic": {
+        enTitle: "Catalytic Converter Deep Cleaning",
+        arTitle: "تنظيف وعلاج الكتلايزر المتطور",
+        enDesc: "Specialized chemical and ultrasonic treatment to dissolve carbon buildup, clear exhaust restrictions, and resolve check-engine issues.",
+        arDesc: "معالجة متخصصة لإذابة وتفكيك الترسبات الكربونية المتراكمة في الكتلايزر، تحسين تدفق العادم، وحل مشاكل تنبيه المحرك.",
+        basePrice: 50,
+        enTime: "⏱️ 2 Hours",
+        arTime: "⏱️ ساعتان"
+      },
+      "combustion": {
+        enTitle: "Combustion Chamber & Valve Service",
+        arTitle: "خدمة منظومة الاحتراق الشاملة",
+        enDesc: "Professional carbon decarbonization for intake valves, combustion chambers, and fuel systems to ensure optimal engine heartbeat.",
+        arDesc: "تنظيف إحترافي لإزالة الكربون عن الصمامات، حجرة الاحتراق، والبخاخات لضمان احتراق وقود مثالي وأداء سلس للمحرك.",
+        basePrice: 40,
+        enTime: "⏱️ 1–2 Hours",
+        arTime: "⏱️ 1–2 ساعة"
+      },
+      "polish": {
+        enTitle: "Multi-Stage Professional Polish",
+        arTitle: "بولش وتصحيح طلاء احترافي",
+        enDesc: "Precision multi-stage machine compounding to eliminate swirl marks, oxidation, and scratches, bringing back a deep mirror gloss.",
+        arDesc: "تلميع ميكانيكي دقيق على عدة مراحل لإزالة دوائر الغسيل، الأكسدة، والخدوش السطحية وإعادة بريق ولمعان مرآتي للطلاء.",
+        basePrice: 90,
+        enTime: "⏱️ 1 Day",
+        arTime: "⏱️ يوم واحد"
+      },
+      "ceramic": {
+        enTitle: "9H Nano-Ceramic Armor Coating",
+        arTitle: "نانوسيراميك حماية طلاء 9H",
+        enDesc: "Permanent 9H molecular bond providing extreme hydrophobic protection against UV rays, acid rain, bird droppings, and harsh weather.",
+        arDesc: "طبقة نانوسيراميك جزيئية صلبة (9H) توفر درع حماية هيدروفوبيك دائم ضد أشعة الشمس، الأمطار الحمضية، والعوامل البيئية القاسية.",
+        basePrice: 150,
+        enTime: "⏱️ 1–2 Days",
+        arTime: "⏱️ 1–2 يوم"
+      }
+    };
+
+    function calculateSmartQuote() {
+      const sizeMultiplier = parseFloat(document.getElementById('car-size').value);
+      const serviceKey = document.getElementById('service-type').value;
+      const pkg = packageData[serviceKey];
+
+      const finalPrice = Math.round(pkg.basePrice * sizeMultiplier);
+      document.getElementById('quote-title').textContent = isArabic ? pkg.arTitle : pkg.enTitle;
+      document.getElementById('quote-desc').textContent = isArabic ? pkg.arDesc : pkg.enDesc;
+      document.getElementById('quote-time').textContent = isArabic ? pkg.arTime : pkg.enTime;
+      document.getElementById('quote-price').textContent = finalPrice + (isArabic ? " دينار" : " JOD");
+    }
+
+    function bookViaWhatsApp() {
+      const serviceKey = document.getElementById('service-type').value;
+      const pkg = packageData[serviceKey];
+      const carModel = document.getElementById('car-model').value || (isArabic ? "غير محدد" : "Not specified");
+      const priceText = document.getElementById('quote-price').textContent;
+
+      const message = isArabic
+        ? `مرحباً مركز العضايلة للعناية بالسيارات، أرغب بحجز موعد:\n- الخدمة: ${pkg.arTitle}\n- نوع السيارة: ${carModel}\n- السعر التقديري: ${priceText}`
+        : `Hello Adaileh Car Care Center, I would like to book an appointment:\n- Package: ${pkg.enTitle}\n- Vehicle: ${carModel}\n- Estimated Quote: ${priceText}`;
+
+      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
+    }
+
+    function triggerStatAction(element, type) {
+      document.querySelectorAll('.card-active').forEach(card => card.classList.remove('card-active'));
+      element.classList.add('card-active');
+      document.getElementById('ai-advisor').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function toggleLang() {
+      isArabic = !isArabic;
+      const root = document.getElementById('html-root');
+      root.dir = isArabic ? 'rtl' : 'ltr';
+      root.lang = isArabic ? 'ar' : 'en';
+      document.getElementById('lang-btn').textContent = isArabic ? 'English' : 'العربية';
+
+      document.querySelectorAll('[data-en]').forEach(el => {
+        el.textContent = isArabic ? el.getAttribute('data-ar') : el.getAttribute('data-en');
+      });
+
+      calculateSmartQuote();
+    }
+
+    calculateSmartQuote();
+  </script>
+</body>
+</html>
