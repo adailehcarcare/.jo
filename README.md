@@ -246,4 +246,288 @@
 
       <div class="glass-panel rounded-3xl p-7 card-glow flex flex-col justify-between">
         <div>
-          <div class="w-12 h-12 rounded-2xl bg-electric/15 border border-electric/30 flex items-center justify-
+          <div class="w-12 h-12 rounded-2xl bg-electric/15 border border-electric/30 flex items-center justify-center text-2xl mb-5">☀️</div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Thermal Control" data-ar="العزل الحراري">Thermal Control</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Nano-Ceramic Window Tint" data-ar="تظليل عازل حراري نانو سيراميك">Nano-Ceramic Window Tint</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Blocks up to 99% of harmful UV rays and high infrared solar heat while maintaining crystal-clear night visibility and GPS signal." data-ar="عزل حراري فائق يحجب 99% من الأشعة فوق البنفسجية ويقلل حرارة المقصورة بشكل ملموس مع رؤية ليلية صافية وبدون التأثير على إشارات الهاتف.">
+            Blocks up to 99% of harmful UV rays and high infrared solar heat while maintaining crystal-clear night visibility and GPS signal.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium" data-en="Jordan Traffic Law Compliant" data-ar="مطابق للمواصفات والنسب القانونية">Jordan Traffic Law Compliant</span>
+          <a href="#ai-advisor" class="text-electric font-bold hover:underline" data-en="Configure →" data-ar="احسب التكلفة ←">Configure →</a>
+        </div>
+      </div>
+
+      <div class="glass-panel rounded-3xl p-7 card-glow flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-electric/15 border border-electric/30 flex items-center justify-center text-2xl mb-5">⚙️</div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Precision Details" data-ar="التفاصيل الدقيقة">Precision Details</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Engine Bay, Rim & Caliper Care" data-ar="تنظيف المحرك، الجنطات والضواو">Engine Bay, Rim & Caliper Care</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Safe dielectric engine detailing, iron brake-dust decontamination on alloy wheels, and crystal headlight restoration." data-ar="تنظيف آمن لحجرة المحرك بدون مياه مضغوطة، إزالة برادة الحديد عن الجنطات، وتلميع وحماية الأضوية الأمامية.">
+            Safe dielectric engine detailing, iron brake-dust decontamination on alloy wheels, and crystal headlight restoration.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium" data-en="Hybrid & EV Safe" data-ar="آمن تماماً لسيارات الهايبرد والكهرباء">Hybrid & EV Safe</span>
+          <a href="#ai-advisor" class="text-electric font-bold hover:underline" data-en="Configure →" data-ar="احسب التكلفة ←">Configure →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intelligent Package Recommender & Instant Price Estimator -->
+  <section id="ai-advisor" class="py-20 bg-carbon border-y border-white/10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-10 items-center">
+        
+        <div class="lg:col-span-6 space-y-5">
+          <span class="text-xs font-bold uppercase tracking-widest text-cyber" data-en="Intelligent Car Care Configurator" data-ar="المستشار الذكي لاختيار الباقة">Intelligent Car Care Configurator</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white" data-en="Find the Exact Treatment Your Car Needs" data-ar="صمّم باقة العناية المثالية لسيارتك خلال ثوانٍ">
+            Find the Exact Treatment Your Car Needs
+          </h2>
+
+          <div class="space-y-4 pt-2">
+            <div>
+              <label class="block text-xs font-bold uppercase text-titanium mb-2" data-en="1. Select Vehicle Category:" data-ar="1. اختر فئة وحجم السيارة:">1. Select Vehicle Category:</label>
+              <select id="car-size" onchange="calculateSmartQuote()" class="w-full p-3.5 rounded-xl bg-obsidian border border-white/15 text-white text-sm font-semibold focus:border-electric focus:outline-none">
+                <option value="1.0">Sedan / Coupe / Hatchback (صالون / هاتشباك)</option>
+                <option value="1.25">Mid-Size SUV / Crossover (جيب وسط / كروس أوفر)</option>
+                <option value="1.45">Large SUV / 4x4 / Pickup (دفع رباعي كبير / بكب)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase text-titanium mb-2" data-en="2. Select Primary Treatment:" data-ar="2. اختر الباقة أو الخدمة الأساسية:">2. Select Primary Treatment:</label>
+              <select id="service-type" onchange="calculateSmartQuote()" class="w-full p-3.5 rounded-xl bg-obsidian border border-white/15 text-white text-sm font-semibold focus:border-electric focus:outline-none">
+                <option value="detail">VIP Full Interior & Exterior Detailing (دراي كلين شاملة + بولش خارجي)</option>
+                <option value="ceramic" selected>9H Nano-Ceramic Package + Paint Correction (نانو سيراميك + تصحيح طلاء)</option>
+                <option value="ppf-front">Front-End Self-Healing PPF Package (أفلام حماية لمقدمة السيارة)</option>
+                <option value="ppf-full">Full-Body Self-Healing PPF Armor (حماية شفافة كاملة للسيارة)</option>
+                <option value="tint">Nano-Ceramic Thermal Window Tint (عازل حراري نانو سيراميك)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase text-titanium mb-2" data-en="3. Your Vehicle Make & Model (Optional):" data-ar="3. نوع وموديل السيارة (اختياري):">3. Your Vehicle Make & Model (Optional):</label>
+              <input id="car-model" type="text" placeholder="e.g., BMW X5 2025 / Kia EV6 / Mercedes E-Class" class="w-full p-3.5 rounded-xl bg-obsidian border border-white/15 text-white text-sm focus:border-electric focus:outline-none" />
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="glass-panel rounded-3xl p-8 border-2 border-electric/40 space-y-6">
+            <div class="flex justify-between items-start">
+              <div>
+                <span class="text-xs uppercase tracking-widest text-cyber font-bold" data-en="Recommended Protocol" data-ar="الباقة المقترحة لسيارتك">Recommended Protocol</span>
+                <h3 id="quote-title" class="text-2xl font-extrabold text-white mt-1">9H Nano-Ceramic Shield</h3>
+              </div>
+              <span id="quote-time" class="bg-electric/20 text-cyber text-xs font-bold px-3 py-1 rounded-full">⏱️ 1–2 Days</span>
+            </div>
+
+            <p id="quote-desc" class="text-sm text-titanium leading-relaxed">
+              Includes foam decontamination, clay-bar treatment, 2-stage machine polish to remove swirls, and multi-layer 9H ceramic coating on paint, rims, and glass.
+            </p>
+
+            <div class="p-5 rounded-2xl bg-obsidian border border-white/10 flex justify-between items-center">
+              <div>
+                <span class="text-xs text-titanium block" data-en="Estimated Starting Investment" data-ar="السعر التقديري يبدأ من">Estimated Starting Investment</span>
+                <span id="quote-price" class="text-3xl font-extrabold text-cyber">150 JOD</span>
+              </div>
+              <div class="text-right text-xs text-emerald-400 font-semibold" data-en="✓ Free LED Paint Inspection" data-ar="✓ فحص مجاني للطلاء قبل البدء">
+                ✓ Free LED Paint Inspection
+              </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-3">
+              <button onclick="bookViaWhatsApp()" class="cyber-gradient text-white font-bold py-4 px-5 rounded-xl text-xs sm:text-sm shadow-lg hover:opacity-95 transition flex items-center justify-center gap-2">
+                <span>💬</span>
+                <span data-en="Book This Package on WhatsApp" data-ar="احجز هذه الباقة عبر واتساب">Book This Package on WhatsApp</span>
+              </button>
+              <a href="https://www.facebook.com/AdailehCarCare" target="_blank" rel="noopener noreferrer" class="bg-white/10 hover:bg-white/20 text-white font-bold py-4 px-5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                <span>📘</span>
+                <span data-en="Inquire via Facebook" data-ar="استفسر عبر صفحة فيسبوك">Inquire via Facebook</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Location, Hours & Direct Contact Section -->
+  <section id="location" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-8 items-stretch">
+      
+      <div class="lg:col-span-5 glass-panel rounded-3xl p-8 flex flex-col justify-between space-y-6">
+        <div class="space-y-4">
+          <span class="text-xs font-bold uppercase tracking-widest text-electric" data-en="Visit Our Studio" data-ar="تفضل بزيارة مركزنا">Visit Our Studio</span>
+          <h2 class="text-3xl font-extrabold text-white" data-en="Location & Direct Contact" data-ar="الموقع وأرقام التواصل">Location & Direct Contact</h2>
+          <p class="text-sm text-titanium" data-en="Drop by for a complimentary paint thickness check and consultation with our detailing specialists." data-ar="تفضل بزيارتنا لإجراء فحص مجاني لطلاء سيارتك واستشارة خبرائنا حول أفضل حلول الحناية والحماية.">
+            Drop by for a complimentary paint thickness check and consultation with our detailing specialists.
+          </p>
+
+          <div class="space-y-4 pt-3 text-sm">
+            <div class="flex items-start gap-3">
+              <span class="text-electric text-lg">📍</span>
+              <div>
+                <div class="font-bold text-white" data-en="Studio Address" data-ar="العنوان">Studio Address</div>
+                <div class="text-titanium" data-en="Amman, Jordan — Adaileh Car Care Center" data-ar="الأردن، عمّان — مركز العدايلة للعناية بالسيارات">Amman, Jordan — Adaileh Car Care Center</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-electric text-lg">📞</span>
+              <div>
+                <div class="font-bold text-white" data-en="Direct Phone & WhatsApp" data-ar="الهاتف والواتساب المباشر">Direct Phone & WhatsApp</div>
+                <a href="tel:+962790000000" class="text-cyber font-bold hover:underline">+962 79 000 0000</a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-electric text-lg">🕒</span>
+              <div>
+                <div class="font-bold text-white" data-en="Working Hours" data-ar="ساعات العمل">Working Hours</div>
+                <div class="text-titanium" data-en="Saturday – Thursday: 9:00 AM – 8:00 PM" data-ar="السبت – الخميس: 9:00 صباحاً – 8:00 مساءً">Saturday – Thursday: 9:00 AM – 8:00 PM</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-electric text-lg">📘</span>
+              <div>
+                <div class="font-bold text-white" data-en="Official Facebook Page" data-ar="صفحتنا الرسمية على فيسبوك">Official Facebook Page</div>
+                <a href="https://www.facebook.com/AdailehCarCare" target="_blank" rel="noopener noreferrer" class="text-cyber font-bold hover:underline">facebook.com/AdailehCarCare</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-4 border-t border-white/10 flex flex-wrap gap-3">
+          <a href="https://www.google.com/maps/search/?api=1&query=Adaileh+Car+Care+Jordan" target="_blank" rel="noopener noreferrer" class="w-full cyber-gradient text-center py-3.5 rounded-xl text-xs font-bold text-white shadow-lg" data-en="🗺️ Open Location in Google Maps" data-ar="🗺️ افتح الموقع على خرائط جوجل (Google Maps)">
+            🗺️ Open Location in Google Maps
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7 glass-panel rounded-3xl overflow-hidden min-h-[380px] border border-white/10">
+        <iframe
+          title="Adaileh Car Care Map"
+          src="https://www.google.com/maps?q=Amman,Jordan&output=embed"
+          class="w-full h-full min-h-[380px] border-0 grayscale invert opacity-90 contrast-125"
+          loading="lazy">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-obsidian border-t border-white/10 py-10 text-center text-xs text-titanium">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div class="font-bold text-white">
+        © 2026 ADAILEH CAR CARE CENTER (العدايلة للعناية بالسيارات). All Rights Reserved.
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="https://www.facebook.com/AdailehCarCare" target="_blank" rel="noopener noreferrer" class="hover:text-cyber transition">Facebook</a>
+        <a href="tel:+962790000000" class="hover:text-cyber transition">+962 79 000 0000</a>
+        <a href="#services" class="hover:text-cyber transition">Services</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let isArabic = false;
+    const WHATSAPP_NUMBER = "962790000000";
+
+    const packageData = {
+      "detail": {
+        enTitle: "VIP Full Interior & Exterior Detailing",
+        arTitle: "باقة الدراي كلين الشاملة والبولش الخارجي VIP",
+        enDesc: "Deep steam & ozone cabin sterilization, leather nourishment, clay-bar decontamination, and single-stage gloss enhancement.",
+        arDesc: "تنظيف عميق للمقصورة بالبخار والأوزون، ترطيب الجلود، إزالة الخشونة عن الطلاء، وتلميع خارجي يعيد لمعة الوكالة.",
+        basePrice: 65,
+        enTime: "⏱️ 5–7 Hours",
+        arTime: "⏱️ 5–7 ساعات"
+      },
+      "ceramic": {
+        enTitle: "9H Nano-Ceramic & Paint Correction",
+        arTitle: "باقة النانو سيراميك 9H وتصحيح الطلاء",
+        enDesc: "Includes foam decontamination, 2-stage machine polish to remove swirls, and multi-layer 9H ceramic coating on paint, rims, and glass.",
+        arDesc: "تشمل إزالة الشوائب، بولش على مرحلتين لإزالة الدوائر والخدوش، وتطبيق طبقات النانو سيراميك 9H للطلاء والجنطات والزجاج.",
+        basePrice: 150,
+        enTime: "⏱️ 1–2 Days",
+        arTime: "⏱️ 1–2 يوم"
+      },
+      "ppf-front": {
+        enTitle: "Front-End Self-Healing PPF Armor",
+        arTitle: "باقة أفلام الحماية الشفافة لمقدمة السيارة (PPF)",
+        enDesc: "Optical-clear TPU protection on front bumper, full hood, fenders, headlights, and side mirrors against highway stone chips.",
+        arDesc: "حماية شفافة ذاتية المعالجة للصدام الأمامي، غطاء المحرك، الرفارف، الأضوية والمرايا ضد الحصى والخدوش.",
+        basePrice: 380,
+        enTime: "⏱️ 1–2 Days",
+        arTime: "⏱️ 1–2 يوم"
+      },
+      "ppf-full": {
+        enTitle: "Full-Body Self-Healing PPF Armor",
+        arTitle: "حماية شفافة كاملة للسيارة (Full Body PPF)",
+        enDesc: "Complete bumper-to-bumper aliphatic TPU protection film with 10-year warranty against yellowing, cracking, and road rash.",
+        arDesc: "تغليف كامل لجسم السيارة بأفلام الحماية الأمريكية الشفافة مع كفالة لمدة 10 سنوات ضد الاصفرار والتشقق والخدوش.",
+        basePrice: 1150,
+        enTime: "⏱️ 3–4 Days",
+        arTime: "⏱️ 3–4 أيام"
+      },
+      "tint": {
+        enTitle: "Nano-Ceramic Thermal Window Tint",
+        arTitle: "تظليل عازل حراري نانو سيراميك للزجاج",
+        enDesc: "99% UV rejection and high infrared heat barrier across side and rear windows with crystal-clear night visibility.",
+        arDesc: "عزل حراري بنسبة 99% من الأشعة الضارة وتقليل ملموس لحرارة الشمس مع رؤية ليلية فائقة الوضوح.",
+        basePrice: 75,
+        enTime: "⏱️ 2–3 Hours",
+        arTime: "⏱️ 2–3 ساعات"
+      }
+    };
+
+    function calculateSmartQuote() {
+      const sizeMultiplier = parseFloat(document.getElementById('car-size').value);
+      const serviceKey = document.getElementById('service-type').value;
+      const pkg = packageData[serviceKey];
+
+      const finalPrice = Math.round(pkg.basePrice * sizeMultiplier);
+      document.getElementById('quote-title').textContent = isArabic ? pkg.arTitle : pkg.enTitle;
+      document.getElementById('quote-desc').textContent = isArabic ? pkg.arDesc : pkg.enDesc;
+      document.getElementById('quote-time').textContent = isArabic ? pkg.arTime : pkg.enTime;
+      document.getElementById('quote-price').textContent = finalPrice + (isArabic ? " دينار" : " JOD");
+    }
+
+    function bookViaWhatsApp() {
+      const serviceKey = document.getElementById('service-type').value;
+      const pkg = packageData[serviceKey];
+      const carModel = document.getElementById('car-model').value || (isArabic ? "غير محدد" : "Not specified");
+      const priceText = document.getElementById('quote-price').textContent;
+
+      const message = isArabic
+        ? `مرحباً مركز العدايلة للعناية بالسيارات، أرغب بحجز موعد:\n- الخدمة: ${pkg.arTitle}\n- نوع السيارة: ${carModel}\n- السعر التقديري: ${priceText}`
+        : `Hello Adaileh Car Care Center, I would like to book an appointment:\n- Package: ${pkg.enTitle}\n- Vehicle: ${carModel}\n- Estimated Quote: ${priceText}`;
+
+      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
+    }
+
+    function toggleLang() {
+      isArabic = !isArabic;
+      const root = document.getElementById('html-root');
+      root.dir = isArabic ? 'rtl' : 'ltr';
+      root.lang = isArabic ? 'ar' : 'en';
+      document.getElementById('lang-btn').textContent = isArabic ? 'English' : 'العربية';
+
+      document.querySelectorAll('[data-en]').forEach(el => {
+        el.textContent = isArabic ? el.getAttribute('data-ar') : el.getAttribute('data-en');
+      });
+
+      calculateSmartQuote();
+    }
+
+    calculateSmartQuote();
+  </script>
+</body>
+</html>
