@@ -82,4 +82,165 @@
     <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
       <div class="glass-panel p-6 rounded-2xl card-glow">
         <h4 class="text-3xl font-extrabold text-cyber">+1500</h4>
-        <p class="text-titanium mt-2 font-medium">سيارة تم العناية بها</p
+        <p class="text-titanium mt-2 font-medium">سيارة تم العناية بها</p>
+      </div>
+      <div class="glass-panel p-6 rounded-2xl card-glow">
+        <h4 class="text-3xl font-extrabold text-cyber">100%</h4>
+        <p class="text-titanium mt-2 font-medium">مواد أصلية ومضمونة</p>
+      </div>
+      <div class="glass-panel p-6 rounded-2xl card-glow">
+        <h4 class="text-3xl font-extrabold text-cyber">+5</h4>
+        <p class="text-titanium mt-2 font-medium">سنوات من الخبرة والتميز</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 max-w-7xl mx-auto px-4">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl font-black text-white">خدماتنا المتخصصة</h2>
+      <div class="h-1 w-16 bg-electric mx-auto mt-3 rounded-full"></div>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-8">
+      
+      <!-- Service 1 -->
+      <div class="glass-panel rounded-3xl overflow-hidden card-glow flex flex-col">
+        <div class="h-52 overflow-hidden border-b border-white/10">
+          <img src="firstphoto1.png" alt="Nano Ceramic Coating" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-2xl font-bold text-white mb-3">حماية النانو سيراميك</h3>
+            <p class="text-titanium text-sm leading-relaxed mb-4">تقنية درع الحماية الكريستالي التي تمنح هيكل السيارة مقاومة عالية وتزيد من العمر الافتراضي لطلاء المركبة.</p>
+            <ul class="space-y-2 text-titanium text-xs list-disc list-inside">
+              <li>حماية المينا من الأشعة فوق البنفسجية والأكسدة</li>
+              <li>خاصية الهيدروفوبيك لمنع التصاق الماء والأتربة</li>
+              <li>إعطاء لمعان وبريق كريستالي مستمر</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="glass-panel rounded-3xl overflow-hidden card-glow flex flex-col">
+        <div class="h-52 overflow-hidden border-b border-white/10">
+          <img src="secondphoto2.png" alt="Paint Correction Polish" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-2xl font-bold text-white mb-3">التلميع والبوليش الخارجي</h3>
+            <p class="text-titanium text-sm leading-relaxed mb-4">معالجة متكاملة لطلاء السيارة لإرجاع لمعة الوكالة مع إزالة آثار الأكسدة الدقيقة ودوائر الغسيل.</p>
+            <ul class="space-y-2 text-titanium text-xs list-disc list-inside">
+              <li>معالجة الخدوش السطحية ودوائر التلميع</li>
+              <li>إعادة توحيد لون الطلاء وتصحيح العيوب</li>
+              <li>تلميع الأضواء الأمامية لإعادة وضوحها</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="glass-panel rounded-3xl overflow-hidden card-glow flex flex-col">
+        <div class="h-52 overflow-hidden border-b border-white/10">
+          <img src="thirdphoto3.png" alt="Interior Auto Detailing" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-2xl font-bold text-white mb-3">التنظيف والتفصيل الداخلي (Detailing)</h3>
+            <p class="text-titanium text-sm leading-relaxed mb-4">تنظيف وتعقيم عميق لكافة مكونات المقصورة الداخلية للمركبة مع العناية بكافة التفاصيل الصغيرة.</p>
+            <ul class="space-y-2 text-titanium text-xs list-disc list-inside">
+              <li>تنظيف وتعقيم المقاعد بجهاز البخار</li>
+              <li>إزالة البقع المستعصية والروائح الكريهة</li>
+              <li>ترطيب وتغذية المقاعد الجلدية لحمايتها</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-20 bg-carbon border-y border-white/10">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-black text-white mb-4">لماذا اختيار مركز العضايله للعناية بالمركبات؟</h2>
+      <div class="h-1 w-16 bg-electric mx-auto mb-16 rounded-full"></div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="glass-panel p-8 rounded-3xl card-glow">
+          <h4 class="text-xl font-bold text-cyber mb-3">جودة مواد عالية</h4>
+          <p class="text-titanium text-sm leading-relaxed">نستخدم أرقى وأفضل المواد العالمية المعتمدة عالمياً لحماية طلاء السيارات.</p>
+        </div>
+        <div class="glass-panel p-8 rounded-3xl card-glow">
+          <h4 class="text-xl font-bold text-cyber mb-3">فريق معتمد بشهادات عالمية</h4>
+          <p class="text-titanium text-sm leading-relaxed">نخبة من الفنيين المحترفين والحاصلين على اعتمادات دولية في فن العناية بالمركبات والفارهات.</p>
+        </div>
+        <div class="glass-panel p-8 rounded-3xl card-glow">
+          <h4 class="text-xl font-bold text-cyber mb-3">دقة في المواعيد</h4>
+          <p class="text-titanium text-sm leading-relaxed">نلتزم بتسليم سيارتك في الوقت المحدد بدقة وبأعلى معايير الإتقان.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking" class="py-20 max-w-4xl mx-auto px-4 text-center">
+    <div class="glass-panel p-8 md:p-12 rounded-3xl border border-electric/40 shadow-2xl">
+      <h3 class="text-3xl font-black text-white mb-3">📅 احجز موعدك الآن</h3>
+      <p class="text-titanium text-sm md:text-base mb-6">اختر الخدمة والوقت المناسب لك وسنتواصل معك فوراً لتأكيد الحجز</p>
+      <a href="https://wa.me/962776999555?text=مرحباً%20أود%20حجز%20موعد%20لعناية%20بالسيارة" target="_blank" class="inline-block bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition text-lg">
+        تواصل معنا عبر واتساب للحجز 💬
+      </a>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 bg-carbon border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-black text-white mb-4">آراء عملائنا الكرام</h3>
+      <div class="h-1 w-16 bg-electric mx-auto mb-16 rounded-full"></div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="glass-panel p-8 rounded-3xl text-right flex flex-col justify-between card-glow">
+          <div class="text-amber-400 text-lg mb-3">★★★★★</div>
+          <p class="text-titanium text-sm italic mb-6">"ما شاء الله شغل متقن جداً، رجعت السيارة وكالة من التلميع والنانو سيراميك. معاملة راقية جداً."</p>
+          <strong class="text-cyber text-sm">- محمد الطراونة</strong>
+        </div>
+        <div class="glass-panel p-8 rounded-3xl text-right flex flex-col justify-between card-glow">
+          <div class="text-amber-400 text-lg mb-3">★★★★★</div>
+          <p class="text-titanium text-sm italic mb-6">"أفضل مركز عناية بالسيارات في الكرك، نظافة داخلية واستلام على الوقت المحدد بالضبط."</p>
+          <strong class="text-cyber text-sm">- خالد المجالي</strong>
+        </div>
+        <div class="glass-panel p-8 rounded-3xl text-right flex flex-col justify-between card-glow">
+          <div class="text-amber-400 text-lg mb-3">★★★★★</div>
+          <p class="text-titanium text-sm italic mb-6">"خدمة ممتازة وأسعار منافسة جداً مقارنة بالجودة العالية للمواد المستخدمة."</p>
+          <strong class="text-cyber text-sm">- عمر العبادي</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Contact -->
+  <section id="location" class="py-20 max-w-7xl mx-auto px-4 border-t border-white/10 w-full">
+    <div class="text-center mb-12">
+      <h3 class="text-3xl font-black text-white">موقعنا والتواصل المباشر</h3>
+      <div class="h-1 w-16 bg-electric mx-auto mt-3 rounded-full"></div>
+    </div>
+    
+    <div class="glass-panel p-8 md:p-12 rounded-3xl max-w-3xl mx-auto space-y-4 text-right border border-electric/30">
+      <p class="text-titanium"><strong>المالك / Ownership:</strong> <span class="text-white">أحمد العضايلة (Ahmad Adaileh)</span></p>
+      <p class="text-titanium"><strong>رقم الهاتف / الواتساب:</strong> <a href="https://wa.me/962776999555" class="text-cyber font-bold hover:underline">0776999555</a></p>
+      <p class="text-titanium"><strong>البريد الإلكتروني:</strong> <a href="mailto:ahmadadaileh1995@gmail.com" class="text-cyber hover:underline">hmadadaileh1995@gmail.com</a></p>
+      <p class="text-titanium"><strong>العنوان:</strong> <span class="text-white">الأردن - الكرك</span></p>
+      <p class="text-titanium"><strong>ساعات العمل:</strong> <span class="text-white">يومياً من الساعة 9:00 صباحاً حتى 9:00 مساءً</span></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-obsidian py-8 text-center text-titanium text-xs border-t border-white/10 px-4">
+    <p>© جميع الحقوق محفوظة - مركز العضايله للعناية بالمركبات - الكرك | ملكية أحمد العضايلة (Ownership: Ahmad Adaileh) | hmadadaileh1995@gmail.com</p>
+  </footer>
+
+</body>
+</html>
