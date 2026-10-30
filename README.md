@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adaileh Car Care Center | العدايلة للعناية بالسيارات</title>
+  <title>Adaileh Car Care Center | العضايلة للعناية بالسيارات</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -104,7 +104,7 @@
         <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight tracking-tight text-white" data-en="Uncompromising Gloss. Engineered Protection." data-ar="لمعان لا مثيل له. حماية هندسية فائقة لسيارتك.">
           Uncompromising Gloss. Engineered Protection.
         </h1>
-        <p class="text-titanium text-base sm:text-lg max-w-2xl leading-relaxed" data-en="At Adaileh Car Care, we combine German & American surface chemistry, 9H Nano-Ceramic technology, and self-healing PPF with master craftsmanship to keep your vehicle in showroom condition." data-ar="في مركز العدايلة للعناية بالسيارات، نجمع بين أحدث تقنيات النانو سيراميك (9H)، وأفلام الحماية الشفافة (PPF) ذاتية المعالجة، والمواد الألمانية والأمريكية المعتمدة لنحافظ على سيارتك بحالة الوكالة.">
+        <p class="text-titanium text-base sm:text-lg max-w-2xl leading-relaxed" data-en="At Adaileh Car Care, we combine German & American surface chemistry, 9H Nano-Ceramic technology, and self-healing PPF with master craftsmanship to keep your vehicle in showroom condition." data-ar="في مركز العضايلة للعناية بالسيارات، نجمع بين أحدث تقنيات النانو سيراميك (9H)، وأفلام الحماية الشفافة (PPF) ذاتية المعالجة، والمواد الألمانية والأمريكية المعتمدة لنحافظ على سيارتك بحالة الوكالة.">
           At Adaileh Car Care, we combine German & American surface chemistry, 9H Nano-Ceramic technology, and self-healing PPF with master craftsmanship to keep your vehicle in showroom condition.
         </p>
 
