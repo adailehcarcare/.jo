@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr" id="html-root">
 <head>
   <meta charset="UTF-8" />
@@ -197,3 +196,4 @@
         <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
           <span class="text-titanium" data-en="Full Body / Front Bikini" data-ar="حماية كاملة أو مقدمة السيارة">Full Body / Front Bikini</span>
           <a href="#ai-advisor" class="text
+](https://enaszq2-web.github.io/-/)
