@@ -1,3 +1,50 @@
+Here are the professional, smart keyword-optimized headlines for each of your services in both Arabic and English, followed by the complete updated website code ready to be saved and pushed to GitHub.
+
+---
+
+### Service Headlines & Smart Keywords
+
+1. **دراي كلين (VIP Interior Dry Clean & Sterilization)**
+* **Smart Keywords:** تنظيف داخلي بالبخار, تعقيم أوزون, إزالة البقع المستعصية, استعادة انتعاش المقصورة.
+* *EN Keywords:* Steam Sterilization, Ozone Sanitization, Deep Cabin Extraction, Interior Restoration.
+
+
+2. **زيوت سينفنكو الألمانية (German Sampingko Motor Oils)**
+* **Smart Keywords:** زيوت ألمانية معتمدة, حماية قصوى للمحرك, ثبات حراري فائق, استيراد ألماني 100%.
+* *EN Keywords:* German Sampingko, Synthetic Motor Oils, Thermal Stability, Authorized Import.
+
+
+3. **محسنات أداء وعزم المحرك (Advanced Performance Additives)**
+* **Smart Keywords:** رفع الأحصنة, تنظيف البخاخات, تقليل استهلاك الوقود, استعادة عزم السيارة.
+* *EN Keywords:* Horsepower Boost, Fuel System Cleaner, Fuel Economy, Maximum Responsiveness.
+
+
+4. **تنظيف الكتلايزر المتطور (Catalytic Converter Deep Cleaning)**
+* **Smart Keywords:** إزالة الترسبات الكربونية, حل مشاكل Check Engine, تحسين تدفق العادم.
+* *EN Keywords:* Carbon Removal, Exhaust Efficiency, Check Engine Resolution, Catalytic Restoration.
+
+
+5. **خدمة منظومة الاحتراق الشاملة (Combustion Chamber & Valve Service)**
+* **Smart Keywords:** تنظيف البخاخات والصمامات, احتراق نقي, كفاءة تشغيل مثالية.
+* *EN Keywords:* Valve Decarbonization, Combustion Tuning, Optimal Engine Rhythm.
+
+
+6. **بولش وتصحيح طلاء احترافي (Multi-Stage Professional Polish)**
+* **Smart Keywords:** إزالة دوائر الغسيل, معالجة الخدوش السطحية, لمعان مرآتي فائق.
+* *EN Keywords:* Swirl Removal, Paint Correction, Mirror Gloss Finish, Showroom Polish.
+
+
+7. **نانوسيراميك حماية طلاء 9H (9H Nano-Ceramic Armor Coating)**
+* **Smart Keywords:** درع حماية كريستالي, هيدروفوبيك دائم, مقاومة الأمطار الحمضية والأشعة فوق البنفسجية.
+* *EN Keywords:* 9H Molecular Bond, Hydrophobic Shield, UV & Acid Rain Defense, Liquid Glass.
+
+
+
+---
+
+### Complete Website Code (`index.html`)
+
+```html
 <!DOCTYPE html>
 <html lang="en" dir="ltr" id="html-root">
 <head>
@@ -101,8 +148,8 @@
         <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight tracking-tight text-white" data-en="Uncompromising Gloss. Engineered Protection." data-ar="أفضل خدمة للعناية بسيارتك في الكرك">
           أفضل خدمة للعناية بسيارتك في الكرك
         </h1>
-        <p class="text-titanium text-base sm:text-lg max-w-2xl leading-relaxed" data-en="At Adaileh Car Care, we provide top German & American automotive solutions including dry cleaning, oils, filters, performance additives, catalytic converter cleaning, and combustion system care." data-ar="في مركز العضايلة، نقدم أفضل خدمات الدراي كلين، الزيوت، الفلاتر، محسنات الأداء، تنظيف الكتلايزر، وصيانة منظومة الاحتراق بأعلى معايير الجودة والإتقان.">
-          في مركز العضايلة، نقدم أفضل خدمات الدراي كلين، الزيوت، الفلاتر، محسنات الأداء، تنظيف الكتلايزر، وصيانة منظومة الاحتراق بأعلى معايير الجودة والإتقان.
+        <p class="text-titanium text-base sm:text-lg max-w-2xl leading-relaxed" data-en="At Adaileh Car Care, we provide top German & American automotive solutions including premium dry cleaning, German Sampingko motor oils, advanced performance boosters, catalytic cleaning, and professional detailing." data-ar="في مركز العضايلة، نقدم أرقى خدمات الدراي كلين الفاخرة، زيوت سينفنكو الألمانية الأصلية، محسنات الأداء المتقدمة، تنظيف الكتلايزر، والبولش والنانوسيراميك الاحترافي.">
+          في مركز العضايلة، نقدم أرقى خدمات الدراي كلين الفاخرة، زيوت سينفنكو الألمانية الأصلية، محسنات الأداء المتقدمة، تنظيف الكتلايزر، والبولش والنانوسيراميك الاحترافي.
         </p>
 
         <div class="flex flex-wrap gap-4 pt-2">
@@ -153,159 +200,141 @@
     </div>
   </section>
 
-  <!-- Core Services Grid (All services included) -->
+  <!-- Core Services Grid (Optimized with Smart Keyword Headings) -->
   <section id="services" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left rtl:text-right">
     <div class="text-center max-w-3xl mx-auto mb-14">
       <span class="text-xs font-bold uppercase tracking-widest text-electric" data-en="Professional Automotive Solutions" data-ar="خدماتنا المعتمدة">خدماتنا المعتمدة</span>
-      <h2 class="text-3xl sm:text-5xl font-extrabold text-white mt-2" data-en="Our Specialized Services" data-ar="الخدمات التي نقدمها">الخدمات التي نقدمها</h2>
-      <p class="text-titanium text-sm sm:text-base mt-3" data-en="Explore our comprehensive range of high-performance products and professional care services." data-ar="نقدم تشكيلة متكاملة من المنتجات وخدمات العناية الفائقة بسيارتك في الكرك.">
+      <h2 class="text-3xl sm:text-5xl font-extrabold text-white mt-2" data-en="Our Specialized Services" data-ar="خدمات العناية الفائقة">خدمات العناية الفائقة</h2>
+      <p class="text-titanium text-sm sm:text-base mt-3" data-en="Explore our comprehensive range of high-performance products and professional care services." data-ar="نقدم تشكيلة متكاملة من المنتجات وخدمات العناية الفائقة بسيارتك بأعلى المعايير العالمية.">
         Explore our comprehensive range of high-performance products and professional care services.
       </p>
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
       
-      <!-- Service 1: Dry Clean (دراي كلين) -->
+      <!-- Service 1: Dry Clean -->
       <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
         <div>
           <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
             <img src="firstphoto1.png" alt="Dry Clean" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
           </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Cabin Care" data-ar="العناية الداخلية">العناية الداخلية</span>
-          <h3 class="text-xl font-bold text-white mt-1" data-en="Dry Clean" data-ar="دراي كلين">دراي كلين</h3>
-          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Deep interior steam cleaning and sanitization for seats, carpets, and dashboard to eliminate stains and odors." data-ar="تنظيف وتعقيم داخلي عميق بالبخار والأوزون للمقاعد، الأرضيات، والسقف لإزالة البقع الصعبة والروائح الكريهة.">
-            تنظيف وتعقيم داخلي عميق بالبخار والأوزون للمقاعد، الأرضيات، والسقف لإزالة البقع الصعبة والروائح الكريهة.
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="VIP Cabin Sanctuary" data-ar="العناية الفاخرة بالمقصورة">العناية الفاخرة بالمقصورة</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="VIP Interior Dry Clean & Sterilization" data-ar="دراي كلين وتعقيم داخلي فاخر">دراي كلين وتعقيم داخلي فاخر</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Deep multi-stage steam and ozone extraction for seats, carpets, headliners, and dashboard to eliminate stubborn stains and restore freshness." data-ar="تنظيف وتفصيل داخلي عميق بالبخار وتقنية الأوزون للمقاعد، الأرضيات، السقف، والديكورات لإزالة أتعس البقع وتوفير انتعاش مثالي.">
+            تنظيف وتفصيل داخلي عميق بالبخار وتقنية الأوزون للمقاعد، الأرضيات، السقف، والديكورات لإزالة أتعس البقع وتوفير انتعاش مثالي.
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
-          <span class="text-titanium" data-en="Steam Sterilization" data-ar="تعقيم بالبخار">تعقيم بالبخار</span>
-          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="استفسر ←">استفسر ←</a>
+          <span class="text-titanium" data-en="Ozone & Steam Treatment" data-ar="تعقيم شامل بالبخار والأوزون">تعقيم شامل بالبخار والأوزون</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">احجز موعدك ←</a>
         </div>
       </div>
 
-      <!-- Service 2: Oils (زيوت) -->
+      <!-- Service 2: Oils -->
       <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
         <div>
           <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
-            <img src="secondphoto2.png" alt="Oils" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            <img src="secondphoto2.png" alt="German Sampingko Oils" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
           </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="German Sampingko" data-ar="سينفنكو الألمانية">سينفنكو الألمانية</span>
-          <h3 class="text-xl font-bold text-white mt-1" data-en="Oils" data-ar="زيوت">زيوت</h3>
-          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Original German Sampingko high-performance motor oils designed to maximize engine protection and longevity." data-ar="توفير وفحص زيوت محركات سينفنكو الألمانية الأصلية لضمان أقصى حماية وعمر افتراضي للمحرك.">
-            توفير وفحص زيوت محركات سينفنكو الألمانية الأصلية لضمان أقصى حماية وعمر افتراضي للمحرك.
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="German Engineering" data-ar="الهندسة الألمانية الأصلية">الهندسة الألمانية الأصلية</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="German Sampingko Motor Oils" data-ar="زيوت سينفنكو الألمانية المعتمدة">زيوت سينفنكو الألمانية المعتمدة</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Official German Sampingko synthetic motor oils engineered for extreme thermal stability, reduced friction, and maximum engine lifespan." data-ar="زيوت محركات سينفنكو الألمانية الأصلية والمعتمدة لتوفير ثبات حراري فائق، تقليل الاحتكاك، ومضاعفة العمر الافتراضي للمحرك.">
+            زيوت محركات سينفنكو الألمانية الأصلية والمعتمدة لتوفير ثبات حراري فائق، تقليل الاحتكاك، ومضاعفة العمر الافتراضي للمحرك.
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
-          <span class="text-titanium" data-en="Original German Products" data-ar="منتجات ألمانية أصلية">منتجات ألمانية أصلية</span>
-          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="استفسر ←">استفسر ←</a>
+          <span class="text-titanium" data-en="100% German Import" data-ar="استيراد ألماني معتمد">استيراد ألماني معتمد</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">احجز موعدك ←</a>
         </div>
       </div>
 
-      <!-- Service 3: Filters (فلاتر) -->
+      <!-- Service 3: Performance Additives -->
       <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
         <div>
           <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
-            <img src="thirdphoto3.png" alt="Filters" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            <img src="thirdphoto3.png" alt="Performance Additives" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
           </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Engine Protection" data-ar="حماية المحرك">حماية المحرك</span>
-          <h3 class="text-xl font-bold text-white mt-1" data-en="Filters" data-ar="فلاتر">فلاتر</h3>
-          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="High-efficiency oil, air, and fuel filters to ensure pure airflow and clean fluid circulation." data-ar="فلاتر زيت، هواء، ووقود عالية الجودة لضمان نقاء دورة المحرك وحمايته.">
-            فلاتر زيت، هواء، ووقود عالية الجودة لضمان نقاء دورة المحرك وحمايته.
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Power & Efficiency Boost" data-ar="طاقة وكفاءة مضاعفة">طاقة وكفاءة مضاعفة</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Advanced Performance Additives" data-ar="محسنات أداء وعزم المحرك">محسنات أداء وعزم المحرك</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="High-grade chemical additives designed to clean fuel injectors, boost horsepower, and optimize fuel economy instantly." data-ar="إضافات ومحسنات كيميائية عالية الجودة لتنظيف بخاخات الوقود، رفع الأحصنة، وتقليل استهلاك الوقود بشكل ملحوظ.">
+            إضافات ومحسنات كيميائية عالية الجودة لتنظيف بخاخات الوقود، رفع الأحصنة، وتقليل استهلاك الوقود بشكل ملحوظ.
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
-          <span class="text-titanium" data-en="High Efficiency" data-ar="كفاءة عالية">كفاءة عالية</span>
-          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="استفسر ←">استفسر ←</a>
+          <span class="text-titanium" data-en="Maximum Horsepower" data-ar="استعادة عزم وسرعة السيارة">استعادة عزم وسرعة السيارة</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">احجز موعدك ←</a>
         </div>
       </div>
 
-      <!-- Service 4: Performance Additives (محسنات أداء) -->
+      <!-- Service 4: Catalytic Converter Cleaning -->
       <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
         <div>
           <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
-            <img src="firstphoto1.png" alt="Performance Additives" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            <img src="firstphoto1.png" alt="Catalytic Converter Cleaning" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
           </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Engine Boost" data-ar="رفع الكفاءة">رفع الكفاءة</span>
-          <h3 class="text-xl font-bold text-white mt-1" data-en="Performance Additives" data-ar="محسنات أداء">محسنات أداء</h3>
-          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Advanced performance additives to reduce friction, clean fuel systems, and enhance engine responsiveness." data-ar="مواد متطورة لتقليل الاحتكاك، تنظيف نظام الوقود، ورفع كفاءة استجابة المحرك.">
-            مواد متطورة لتقليل الاحتكاك، تنظيف نظام الوقود، ورفع كفاءة استجابة المحرك.
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Exhaust & Emission Care" data-ar="صيانة نظام العادم والبيئة">صيانة نظام العادم والبيئة</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Catalytic Converter Deep Cleaning" data-ar="تنظيف وعلاج الكتلايزر المتطور">تنظيف وعلاج الكتلايزر المتطور</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Specialized chemical and ultrasonic treatment to dissolve carbon buildup, clear exhaust restrictions, and resolve check-engine issues." data-ar="معالجة متخصصة لإذابة وتفكيك الترسبات الكربونية المتراكمة في الكتلايزر، تحسين تدفق العادم، وحل مشاكل تنبيه المحرك.">
+            معالجة متخصصة لإذابة وتفكيك الترسبات الكربونية المتراكمة في الكتلايزر، تحسين تدفق العادم، وحل مشاكل تنبيه المحرك.
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
-          <span class="text-titanium" data-en="Maximum Output" data-ar="أداء أقوى">أداء أقوى</span>
-          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="استفسر ←">استفسر ←</a>
+          <span class="text-titanium" data-en="Exhaust Restoration" data-ar="استعادة تدفق العادم السلس">استعادة تدفق العادم السلس</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">احجز موعدك ←</a>
         </div>
       </div>
 
-      <!-- Service 5: Catalytic Converter Cleaning (تنظيف كتلايزر) -->
+      <!-- Service 5: Combustion System -->
       <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
         <div>
           <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
-            <img src="secondphoto2.png" alt="Catalytic Converter Cleaning" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            <img src="secondphoto2.png" alt="Combustion System Care" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
           </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Exhaust Care" data-ar="نظام العادم">نظام العادم</span>
-          <h3 class="text-xl font-bold text-white mt-1" data-en="Catalytic Converter Cleaning" data-ar="تنظيف كتلايزر">تنظيف كتلايزر</h3>
-          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Specialized cleaning service for catalytic converters to remove carbon buildup and restore exhaust efficiency." data-ar="خدمة متخصصة لتنظيف وفك الترسبات الكربونية من الكتلايزر لتحسين عزم السيارة وتقليل الانبعاثات.">
-            خدمة متخصصة لتنظيف وفك الترسبات الكربونية من الكتلايزر لتحسين عزم السيارة وتقليل الانبعاثات.
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Engine Chamber Tuning" data-ar="تنقية غرفة الاحتراق">تنقية غرفة الاحتراق</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Combustion Chamber & Valve Service" data-ar="خدمة منظومة الاحتراق الشاملة">خدمة منظومة الاحتراق الشاملة</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Professional carbon decarbonization for intake valves, combustion chambers, and fuel systems to ensure optimal engine heartbeat." data-ar="تنظيف إحترافي لإزالة الكربون عن الصمامات، حجرة الاحتراق، والبخاخات لضمان احتراق وقود مثالي وأداء سلس للمحرك.">
+            تنظيف إحترافي لإزالة الكربون عن الصمامات، حجرة الاحتراق، والبخاخات لضمان احتراق وقود مثالي وأداء سلس للمحرك.
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
-          <span class="text-titanium" data-en="Carbon Removal" data-ar="إزالة الكربون">إزالة الكربون</span>
-          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="استفسر ←">استفسر ←</a>
+          <span class="text-titanium" data-en="Optimal Engine Rhythm" data-ar="احتراق نقي واستهلاك اقتصادي">احتراق نقي واستهلاك اقتصادي</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">احجز موعدك ←</a>
         </div>
       </div>
 
-      <!-- Service 6: Combustion System (منظومة احتراق) -->
+      <!-- Service 6: Professional Polish -->
       <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
         <div>
           <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
-            <img src="thirdphoto3.png" alt="Combustion System" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            <img src="thirdphoto3.png" alt="Professional Polish" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
           </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Combustion Care" data-ar="منظومة الاحتراق">منظومة الاحتراق</span>
-          <h3 class="text-xl font-bold text-white mt-1" data-en="Combustion System Service" data-ar="منظومة احتراق">منظومة احتراق</h3>
-          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Comprehensive cleaning and maintenance for valves, injectors, and the entire combustion chamber." data-ar="تنظيف وصيانة شاملة للبخاخات، الصمامات، وغرفة الاحتراق لضمان احتراق مثالي واستهلاك اقتصادي للوقود.">
-            تنظيف وصيانة شاملة للبخاخات، الصمامات، وغرفة الاحتراق لضمان احتراق مثالي واستهلاك اقتصادي للوقود.
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Showroom Paint Restoration" data-ar="استعادة لمعة الوكالة">استعادة لمعة الوكالة</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="Multi-Stage Professional Polish" data-ar="بولش وتصحيح طلاء احترافي">بولش وتصحيح طلاء احترافي</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Precision multi-stage machine compounding to eliminate swirl marks, oxidation, and scratches, bringing back a deep mirror gloss." data-ar="تلميع ميكانيكي دقيق على عدة مراحل لإزالة دوائر الغسيل، الأكسدة، والخدوش السطحية وإعادة بريق ولمعان مرآتي للطلاء.">
+            تلميع ميكانيكي دقيق على عدة مراحل لإزالة دوائر الغسيل، الأكسدة، والخدوش السطحية وإعادة بريق ولمعان مرآتي للطلاء.
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
-          <span class="text-titanium" data-en="Optimal Efficiency" data-ar="احتراق مثالي">احتراق مثالي</span>
-          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="استفسر ←">استفسر ←</a>
+          <span class="text-titanium" data-en="Mirror Gloss Finish" data-ar="ضمان لمعان خارق وخالٍ من الدوائر">ضمان لمعان خارق وخالٍ من الدوائر</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">احجز موعدك ←</a>
         </div>
       </div>
 
-      <!-- Service 7: Professional Polish (بولش احترافي) -->
-      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
+      <!-- Service 7: Nano-Ceramic -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden lg:col-span-2 lg:max-w-xl lg:mx-auto">
         <div>
           <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
-            <img src="firstphoto1.png" alt="Professional Polish" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            <img src="firstphoto1.png" alt="9H Nano-Ceramic Shield" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
           </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Paint Restoration" data-ar="استعادة اللمعان">استعادة اللمعان</span>
-          <h3 class="text-xl font-bold text-white mt-1" data-en="Professional Polish" data-ar="بولش احترافي">بولش احترافي</h3>
-          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Multi-stage professional machine polishing to remove wash swirls, surface scratches, and restore showroom finish." data-ar="تلميع ومعالجة خارجية على عدة مراحل لإزالة دوائر الغسيل، الخدوش السطحية، وإعادة لمعة الوكالة للطلاء.">
-            تلميع ومعالجة خارجية على عدة مراحل لإزالة دوائر الغسيل، الخدوش السطحية، وإعادة لمعة الوكالة للطلاء.
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Ultimate Liquid Glass Armor" data-ar="الدرع الكريستالي الفائق">الدرع الكريستالي الفائق</span>
+          <h3 class="text-xl font-bold text-white mt-1" data-en="9H Nano-Ceramic Armor Coating" data-ar="نانوسيراميك حماية طلاء 9H">نانوسيراميك حماية طلاء 9H</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Permanent 9H molecular bond providing extreme hydrophobic protection against UV rays, acid rain, bird droppings, and harsh weather." data-ar="طبقة نانوسيراميك جزيئية صلبة (9H) توفر درع حماية هيدروفوبيك دائم ضد أشعة الشمس، الأمطار الحمضية، والعوامل البيئية القاسية.">
+            طبقة نانوسيراميك جزيئية صلبة (9H) توفر درع حماية هيدروفوبيك دائم ضد أشعة الشمس، الأمطار الحمضية، والعوامل البيئية القاسية.
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
-          <span class="text-titanium" data-en="Mirror Finish" data-ar="لمعان مرآتي">لمعان مرآتي</span>
-          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="استفسر ←">استفسر ←</a>
-        </div>
-      </div>
-
-      <!-- Service 8: Nano-Ceramic (نانوسيراميك) -->
-      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
-        <div>
-          <div class="overflow-hidden rounded-2xl mb-5 h-48 border border-white/10">
-            <img src="secondphoto2.png" alt="Nano-Ceramic" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Surface Protection" data-ar="حماية فائقة">حماية فائقة</span>
-          <h3 class="text-xl font-bold text-white mt-1" data-en="Nano-Ceramic" data-ar="نانوسيراميك">نانوسيراميك</h3>
-          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Advanced 9H Nano-Ceramic crystal coating providing long-lasting gloss and resistance against oxidation and weather." data-ar="طبقة حماية كريستالية متطورة (9H) تمنح هيكل السيارة لمعاناً فائقاً ومقاومة عالية للأكسدة والعوامل الجوية.">
-            طبقة حماية كريستالية متطورة (9H) تمنح هيكل السيارة لمعاناً فائقاً ومقاومة عالية للأكسدة والعوامل الجوية.
-          </p>
-        </div>
-        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
-          <span class="text-titanium" data-en="9H Hardness" data-ar="صلابة 9H">صلابة 9H</span>
-          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="استفسر ←">استفسر ←</a>
+          <span class="text-titanium" data-en="Extreme Hydrophobic Defense" data-ar="مقاومة فائقة للمياه والأوساخ">مقاومة فائقة للمياه والأوساخ</span>
+          <a href="https://wa.me/962776999555" class="text-electric font-bold hover:underline" data-en="Inquire →" data-ar="احجز موعدك ←">احجز موعدك ←</a>
         </div>
       </div>
 
@@ -401,3 +430,5 @@
   </script>
 </body>
 </html>
+
+```
