@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr" id="html-root">
 <head>
   <meta charset="UTF-8" />
@@ -56,4 +55,19 @@
         <a href="tel:+962776999555" class="hover:text-cyber transition font-semibold text-white">📞 +962 77 699 9555</a>
       </div>
       <div class="flex items-center gap-4">
-        <span class="
+        <span class="text-cyber font-bold" data-en="Authorized Dealer for German Sampingko Products" data-ar="وكيل معتمد لمنتجات سينفنكو الألمانية">وكيل معتمد لمنتجات سينفنكو الألمانية</span>
+        <span class="hidden sm:inline text-titanium">|</span>
+        <button onclick="toggleLang()" id="lang-btn" class="bg-white/10 hover:bg-white/20 text-white px-3 py-1 rounded-full text-xs font-bold transition">
+          العربية
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Sticky Navigation -->
+  <header class="sticky top-0 z-50 glass-panel border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+      
+      <a href="#" class="flex items-center gap-3.5 group">
+        <div class="logo-crop-header">
+          <img src="Chrome ADAILEH Car Care Emblem.png" alt="Adaileh Car Care Center Logo" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%2300A8FF\'><path d=\'M18.92 6.01C18.72 5
