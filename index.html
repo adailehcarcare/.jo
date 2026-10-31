@@ -20,3 +20,102 @@
             electric: '#00A8FF',
             cyber: '#00E5FF',
             crimson: '#E11D48',
+            titanium: '#94A3B8'
+          },
+          fontFamily: {
+            sans: ['"Outfit"', '"Noto Kufi Arabic"', 'sans-serif'],
+            arabic: ['"Noto Kufi Arabic"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #0B0D12; color: #F8FAFC; font-family: 'Outfit', 'Noto Kufi Arabic', sans-serif; scroll-behavior: smooth; margin: 0; padding: 0; }
+    
+    .shiny-red-btn {
+      background: linear-gradient(135deg, #FF2E4C 0%, #D90429 100%);
+      box-shadow: 0 0 25px rgba(255, 46, 76, 0.55), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+      transition: all 0.3s ease;
+    }
+    .shiny-red-btn:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 0 35px rgba(255, 46, 76, 0.85), inset 0 1px 2px rgba(255, 255, 255, 0.5);
+    }
+
+    .glass-panel { background: rgba(19, 23, 34, 0.85); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    .card-glow { transition: all 0.35s ease; cursor: pointer; }
+    .card-glow:hover { transform: translateY(-6px); border-color: rgba(0, 229, 255, 0.5); box-shadow: 0 18px 40px -12px rgba(0, 168, 255, 0.25); }
+
+    .hero-banner {
+      position: relative;
+      background-color: #0B0D12;
+      background-image: 
+        linear-gradient(to bottom, rgba(11, 13, 18, 0.6) 0%, rgba(11, 13, 18, 0.75) 60%, #0B0D12 100%),
+        url('headerphotocar.jpeg'),
+        url('watermarked_img_5315418272674494559.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    .stats-outer-box {
+      background: rgba(13, 18, 26, 0.92);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    }
+    .stats-inner-card {
+      background: linear-gradient(145deg, rgba(16, 26, 38, 0.95) 0%, rgba(11, 15, 22, 0.95) 100%);
+      border: 1px solid rgba(0, 229, 255, 0.18);
+      border-radius: 16px;
+      padding: 36px 20px;
+      transition: all 0.3s ease;
+    }
+    .stats-inner-card:hover {
+      border-color: rgba(0, 229, 255, 0.5);
+      box-shadow: 0 0 25px rgba(0, 168, 255, 0.2);
+      transform: translateY(-3px);
+    }
+
+    select, input {
+      background-color: #0B0D12 !important;
+      color: #FFFFFF !important;
+      border: 1px solid rgba(0, 168, 255, 0.35) !important;
+    }
+    select option {
+      background-color: #131722 !important;
+      color: #FFFFFF !important;
+      padding: 12px;
+    }
+  </style>
+</head>
+<body class="selection:bg-crimson selection:text-white">
+
+  <!-- Top Utility Bar -->
+  <div class="bg-[#080A0F] border-b border-white/10 text-xs py-2.5 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-3">
+      <div class="flex items-center gap-4 text-gray-300">
+        <span>📍 <span data-en="Al-Karak, Jordan" data-ar="الكرك، الأردن">Al-Karak, Jordan</span></span>
+        <span class="text-white/20">|</span>
+        <a href="tel:+962776999555" class="hover:text-white transition font-semibold text-gray-200" dir="ltr">📞 +962 77 699 9555</a>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="https://www.facebook.com/AdailehCarCare" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition flex items-center gap-1.5 font-medium">
+          <span class="text-blue-500">📘</span>
+          <span data-en="Follow us on Facebook" data-ar="تابعنا على فيسبوك">Follow us on Facebook</span>
+        </a>
+        <button onclick="toggleLang()" id="lang-btn" class="bg-white/10 hover:bg-white/20 text-white px-3.5 py-1 rounded-full text-xs font-bold transition">
+          العربية
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Sticky Navigation Toolbar -->
+  <header class="sticky top-0 z-50 bg-[#0E131F]/95 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
+      
+      <nav class="flex items-center gap-6 sm:gap-9 text-sm font-bold text-gray-300">
+        <a href="#services" class="hover:text-white transition py-1 border-b-2 border-
