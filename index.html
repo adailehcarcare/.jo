@@ -498,4 +498,105 @@
         enTitle: "VIP Interior Dry Clean & Sterilization",
         arTitle: "دراي كلين وتعقيم داخلي فاخر",
         enDesc: "Deep multi-stage steam and ozone extraction for seats, carpets, headliners, and dashboard to eliminate stubborn stains and restore freshness.",
-        arDesc: "تنظيف وتعقيم داخلي عميق بالبخار والأوزون للم
+        arDesc: "تنظيف وتعقيم داخلي عميق بالبخار والأوزون للمقاعد، الأرضيات، والسقف لإزالة البقع الصعبة والروائح الكريهة واستعادة انتعاش الوكالة.",
+        enTime: "⏱️ 5–7 Hours",
+        arTime: "⏱️ 5–7 ساعات"
+      },
+      "oils": {
+        enTitle: "German Senfineco Motor Oils",
+        arTitle: "زيوت سينفنكو الألمانية المعتمدة",
+        enDesc: "Official German Senfineco synthetic motor oils engineered for extreme thermal stability, reduced friction, and maximum engine lifespan.",
+        arDesc: "توفير وفحص زيوت محركات سينفنكو الألمانية الأصلية لضمان ثبات حراري فائق، تقليل الاحتكاك، وأقصى حماية وعمر افتراضي للمحرك.",
+        enTime: "⏱️ 1 Hour",
+        arTime: "⏱️ ساعة واحدة"
+      },
+      "additives": {
+        enTitle: "Advanced Performance Additives",
+        arTitle: "محسنات أداء وعزم المحرك",
+        enDesc: "High-grade German chemical additives designed to clean fuel injectors, boost horsepower, and optimize fuel economy instantly.",
+        arDesc: "مواد وإضافات ألمانية متطورة لتقليل الاحتكاك، تنظيف نظام الوقود، واستعادة عزم وسرعة استجابة المحرك.",
+        enTime: "⏱️ 30 Mins",
+        arTime: "⏱️ 30 دقيقة"
+      },
+      "catalytic": {
+        enTitle: "Catalytic Converter Deep Cleaning",
+        arTitle: "تنظيف وعلاج الكتلايزر المتطور",
+        enDesc: "Specialized chemical and steam treatment to dissolve carbon buildup, clear exhaust restrictions, and resolve check-engine issues.",
+        arDesc: "خدمة متخصصة لتنظيف وتفكيك الترسبات الكربونية من الكتلايزر لتحسين عزم السيارة وتقليل الانبعاثات.",
+        enTime: "⏱️ 2 Hours",
+        arTime: "⏱️ ساعتان"
+      },
+      "combustion": {
+        enTitle: "Combustion Chamber & Valve Service",
+        arTitle: "خدمة منظومة الاحتراق الشاملة",
+        enDesc: "Professional carbon decarbonization for intake valves, combustion chambers, and fuel systems to ensure optimal engine performance.",
+        arDesc: "تنظيف وصيانة شاملة للبخاخات، الصمامات، وغرفة الاحتراق لضمان احتراق مثالي واستهلاك اقتصادي للوقود.",
+        enTime: "⏱️ 1–2 Hours",
+        arTime: "⏱️ 1–2 ساعة"
+      },
+      "polish": {
+        enTitle: "Multi-Stage Professional Polish",
+        arTitle: "بولش وتصحيح طلاء احترافي",
+        enDesc: "Precision multi-stage machine compounding to eliminate swirl marks, oxidation, and scratches, bringing back a deep mirror gloss.",
+        arDesc: "تلميع ومعالجة خارجية على عدة مراحل لإزالة دوائر الغسيل، الخدوش السطحية، وإعادة لمعة الوكالة للطلاء.",
+        enTime: "⏱️ 1 Day",
+        arTime: "⏱️ يوم واحد"
+      },
+      "ceramic": {
+        enTitle: "9H Nano-Ceramic Armor Coating",
+        arTitle: "نانوسيراميك حماية طلاء 9H",
+        enDesc: "Advanced 9H crystalline protection layer giving your car's body ultra-high gloss, hydrophobic water-repellency, and extreme resistance against oxidation and harsh weather.",
+        arDesc: "طبقة حماية كريستالية متطورة (9H) تمنح هيكل السيارة لمعاناً فائقاً، خاصية طرد المياه والأوساخ، ومقاومة عالية للأكسدة والعوامل الجوية.",
+        enTime: "⏱️ 1–2 Days",
+        arTime: "⏱️ 1–2 يوم"
+      }
+    };
+
+    function selectServiceInAdvisor(serviceKey) {
+      const selectEl = document.getElementById('service-type');
+      selectEl.value = serviceKey;
+      updateSelectedInfo();
+    }
+
+    function updateSelectedInfo() {
+      const serviceKey = document.getElementById('service-type').value;
+      const pkg = packageData[serviceKey];
+
+      document.getElementById('quote-title').textContent = isArabic ? pkg.arTitle : pkg.enTitle;
+      document.getElementById('quote-desc').textContent = isArabic ? pkg.arDesc : pkg.enDesc;
+      document.getElementById('quote-time').textContent = isArabic ? pkg.arTime : pkg.enTime;
+    }
+
+    function bookViaWhatsApp() {
+      const serviceKey = document.getElementById('service-type').value;
+      const pkg = packageData[serviceKey];
+      const carSize = document.getElementById('car-size').value;
+      const carModel = document.getElementById('car-model').value || (isArabic ? "غير محدد" : "Not specified");
+
+      const message = isArabic
+        ? `مرحباً، أرغب بالاستفسار وحجز موعد:\n- الخدمة المطلوبة: ${pkg.arTitle}\n- فئة السيارة: ${carSize}\n- نوع وموديل السيارة: ${carModel}`
+        : `Hello, I would like to inquire and book an appointment:\n- Service: ${pkg.enTitle}\n- Vehicle Category: ${carSize}\n- Vehicle Make/Model: ${carModel}`;
+
+      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
+    }
+
+    function toggleLang() {
+      isArabic = !isArabic;
+      const root = document.getElementById('html-root');
+      root.dir = isArabic ? 'rtl' : 'ltr';
+      root.lang = isArabic ? 'ar' : 'en';
+      document.getElementById('lang-btn').textContent = isArabic ? 'English' : 'العربية';
+
+      document.querySelectorAll('[data-en]').forEach(el => {
+        el.textContent = isArabic ? el.getAttribute('data-ar') : el.getAttribute('data-en');
+      });
+
+      updateSelectedInfo();
+    }
+
+    // Force application state to properly render Arabic text on load
+    isArabic = false; 
+    toggleLang();
+  </script>
+</body>
+</html>
