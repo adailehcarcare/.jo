@@ -104,4 +104,149 @@
       <div class="flex items-center gap-4">
         <a href="https://www.facebook.com/profile.php?id=61559734410888" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition flex items-center gap-1.5 font-medium">
           <span class="text-blue-500">📘</span>
-          <span data-en="Follow us on Facebook"
+          <span data-en="Follow us on Facebook" data-ar="تابعنا على فيسبوك">Follow us on Facebook</span>
+        </a>
+        <button onclick="toggleLang()" id="lang-btn" class="bg-white/10 hover:bg-white/20 text-white px-3.5 py-1 rounded-full text-xs font-bold transition">
+          العربية
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Sticky Navigation Toolbar with Logo -->
+  <header class="sticky top-0 z-50 bg-[#0E131F]/95 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo & Name -->
+      <a href="#" class="flex items-center gap-3 group">
+        <img src="Delete Chrome ADAILEH Car Care Emblem.png" alt="Adaileh Car Care Logo" class="w-12 h-12 object-contain rounded-xl border border-white/10 group-hover:border-cyber transition" />
+        <span class="font-black text-white text-base sm:text-lg tracking-wide" data-en="Adaileh Car Care" data-ar="مركز العضايلة">Adaileh Car Care</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 lg:gap-9 text-sm font-bold text-gray-300">
+        <a href="#services" class="hover:text-white transition py-1 border-b-2 border-crimson text-white" data-en="Services" data-ar="خدماتنا">Services</a>
+        <a href="#ai-advisor" class="hover:text-white transition" data-en="Book Consultation" data-ar="احجز استشارة وطلب عرض سعر">Book Consultation</a>
+        <a href="#stats-section" class="hover:text-white transition" data-en="Our Standards" data-ar="معاييرنا">Our Standards</a>
+        <a href="#location" class="hover:text-white transition" data-en="Location & Contact" data-ar="الموقع والتواصل">Location & Contact</a>
+      </nav>
+
+      <div>
+        <a href="#ai-advisor" class="shiny-red-btn text-white text-xs sm:text-sm font-extrabold px-6 py-3 rounded-full inline-block" data-en="Book Appointment" data-ar="احجز موعدك الآن">
+          Book Appointment
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-banner min-h-[75vh] flex flex-col items-center justify-center text-center px-4 pt-20 pb-28">
+    <div class="max-w-4xl mx-auto space-y-6">
+      
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black text-white leading-tight drop-shadow-[0_6px_24px_rgba(0,0,0,0.95)]" data-en="Best Car Care Service in Al-Karak" data-ar="أفضل خدمة للعناية بسيارتك في الكرك">
+        Best Car Care Service in Al-Karak
+      </h1>
+
+      <p class="text-gray-200 text-base sm:text-xl lg:text-2xl max-w-3xl mx-auto leading-relaxed font-medium drop-shadow-[0_4px_14px_rgba(0,0,0,0.95)]" data-en="We provide the finest polishing, nano-ceramic, and interior & exterior vehicle detailing services with the highest quality and precision by specialists." data-ar="نقدم أفضل خدمات التلميع، النانو سيراميك، وتنظيف المركبات الداخلي والخارجي بأعلى جودة وإتقان بأيدي متخصصين.">
+        We provide the finest polishing, nano-ceramic, and interior & exterior vehicle detailing services with the highest quality and precision by specialists.
+      </p>
+
+      <div class="pt-4">
+        <a href="#ai-advisor" class="shiny-red-btn text-white text-base sm:text-lg font-extrabold px-11 py-4 rounded-full inline-block" data-en="Book Your Service Now" data-ar="احجز خدمتك الآن">
+          Book Your Service Now
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Second Section: Stats Box -->
+  <section id="stats-section" class="max-w-6xl mx-auto px-4 -mt-16 relative z-20">
+    <div class="stats-outer-box">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+        
+        <div onclick="document.getElementById('ai-advisor').scrollIntoView({behavior: 'smooth'})" class="stats-inner-card cursor-pointer">
+          <div class="text-5xl sm:text-6xl font-black text-white tracking-tight" dir="ltr">5+</div>
+          <div class="text-gray-200 mt-3 font-bold text-base sm:text-lg" data-en="Years of Experience & Excellence" data-ar="سنوات من الخبرة والتميز">Years of Experience & Excellence</div>
+        </div>
+
+        <div onclick="document.getElementById('ai-advisor').scrollIntoView({behavior: 'smooth'})" class="stats-inner-card cursor-pointer">
+          <div class="text-5xl sm:text-6xl font-black text-white tracking-tight" dir="ltr">100%</div>
+          <div class="text-gray-200 mt-3 font-bold text-base sm:text-lg" data-en="Original & Guaranteed Materials" data-ar="مواد أصلية ومضمونة">Original & Guaranteed Materials</div>
+        </div>
+
+        <div onclick="document.getElementById('ai-advisor').scrollIntoView({behavior: 'smooth'})" class="stats-inner-card cursor-pointer">
+          <div class="text-5xl sm:text-6xl font-black text-white tracking-tight" dir="ltr">1500+</div>
+          <div class="text-gray-200 mt-3 font-bold text-base sm:text-lg" data-en="Vehicles Cared For" data-ar="سيارة تم العناية بها">Vehicles Cared For</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp & Facebook Buttons -->
+  <div class="fixed left-5 bottom-6 z-50 flex flex-col gap-3">
+    <a href="https://wa.me/962776999555" target="_blank" aria-label="WhatsApp" class="w-14 h-14 rounded-full bg-[#25D366] hover:scale-110 transition flex items-center justify-center shadow-[0_0_20px_rgba(37,211,102,0.6)] text-white text-2xl">
+      💬
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61559734410888" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="w-14 h-14 rounded-full bg-[#1877F2] hover:scale-110 transition flex items-center justify-center shadow-[0_0_20px_rgba(24,119,242,0.6)] text-white font-black text-2xl">
+      f
+    </a>
+  </div>
+
+  <!-- Core Services Section -->
+  <section id="services" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left rtl:text-right">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl sm:text-5xl font-black text-white" data-en="Our Specialized Services" data-ar="خدماتنا المتخصصة">Our Specialized Services</h2>
+      <p class="text-titanium text-sm sm:text-base mt-3" data-en="Explore our complete range of German engine care and showroom detailing services." data-ar="نقدم تشكيلة متكاملة من خدمات العناية بالمحرك والتفصيل الداخلي والخارجي بأعلى المعايير العالمية.">
+        Explore our complete range of German engine care and showroom detailing services.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Service 1: Dry Clean -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
+        <div>
+          <div class="overflow-hidden rounded-2xl mb-5 h-64 border border-white/10 bg-carbon">
+            <img src="دراي كلين وتعقيم داخلي فاخر.jpeg" alt="VIP Interior Dry Clean" class="w-full h-full object-cover object-center hover:scale-105 transition duration-500" />
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="VIP Cabin Sanctuary" data-ar="العناية الفاخرة بالمقصورة">VIP Cabin Sanctuary</span>
+          <h3 class="text-xl font-extrabold text-white mt-1" data-en="VIP Interior Dry Clean & Sterilization" data-ar="دراي كلين وتعقيم داخلي فاخر">VIP Interior Dry Clean & Sterilization</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Deep multi-stage steam and ozone extraction for seats, carpets, headliners, and dashboard to eliminate stubborn stains and odors." data-ar="تنظيف وتعقيم داخلي عميق بالبخار والأوزون للمقاعد، الأرضيات، والسقف لإزالة البقع الصعبة والروائح الكريهة واستعادة انتعاش الوكالة.">
+            Deep multi-stage steam and ozone extraction for seats, carpets, headliners, and dashboard to eliminate stubborn stains and odors.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium font-semibold" data-en="Steam & Ozone Sterilization" data-ar="تعقيم شامل بالبخار والأوزون">Steam & Ozone Sterilization</span>
+          <a href="#ai-advisor" onclick="selectServiceInAdvisor('detail')" class="text-crimson font-extrabold hover:underline" data-en="Book Now →" data-ar="احجز الآن ←">Book Now →</a>
+        </div>
+      </div>
+
+      <!-- Service 2: German Senfineco Oils -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
+        <div>
+          <div class="overflow-hidden rounded-2xl mb-5 h-64 border border-white/10 bg-carbon">
+            <img src="زيوت سينفنكو الألمانية المعتمدة.jpeg" alt="German Senfineco Motor Oils" class="w-full h-full object-cover object-center hover:scale-105 transition duration-500" />
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="German Engineering" data-ar="الهندسة الألمانية الأصلية">German Engineering</span>
+          <h3 class="text-xl font-extrabold text-white mt-1" data-en="German Senfineco Motor Oils" data-ar="زيوت سينفنكو الألمانية المعتمدة">German Senfineco Motor Oils</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Original German Senfineco synthetic motor oils engineered for extreme thermal stability, reduced friction, and maximum engine lifespan." data-ar="توفير وفحص زيوت محركات سينفنكو الألمانية الأصلية لضمان ثبات حراري فائق، تقليل الاحتكاك، وأقصى حماية وعمر افتراضي للمحرك.">
+            Original German Senfineco synthetic motor oils engineered for extreme thermal stability, reduced friction, and maximum engine lifespan.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+          <span class="text-titanium font-semibold" data-en="100% German Import" data-ar="وكيل معتمد - ألماني أصلي">100% German Import</span>
+          <a href="#ai-advisor" onclick="selectServiceInAdvisor('oils')" class="text-crimson font-extrabold hover:underline" data-en="Book Now →" data-ar="احجز الآن ←">Book Now →</a>
+        </div>
+      </div>
+
+      <!-- Service 3: Performance Additives -->
+      <div class="glass-panel rounded-3xl p-5 card-glow flex flex-col justify-between overflow-hidden">
+        <div>
+          <div class="overflow-hidden rounded-2xl mb-5 h-64 border border-white/10 bg-carbon">
+            <img src="محسنات أداء وعزم المحرك.jpeg" alt="Advanced Performance Additives" class="w-full h-full object-cover object-center hover:scale-105 transition duration-500" />
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyber" data-en="Power & Efficiency Boost" data-ar="طاقة وكفاءة مضاعفة">Power & Efficiency Boost</span>
+          <h3 class="text-xl font-extrabold text-white mt-1" data-en="Advanced Performance Additives" data-ar="محسنات أداء وعزم المحرك">Advanced Performance Additives</h3>
+          <p class="text-sm text-titanium mt-3 leading-relaxed" data-en="Advanced German chemical additives designed to reduce friction, clean fuel systems, and boost engine horsepower and responsiveness." data-ar="مواد وإضاف
