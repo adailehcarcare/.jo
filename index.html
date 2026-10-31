@@ -1,5 +1,8 @@
+إليك الكود المحدث بالكامل والنهائي لموقع **مركز العضايلة للعناية بالسيارات (Adaileh Car Care)**. تتضمن هذه النسخة صورة بانر سيارات السباق (Racing Car) في الهيدر، وقسم باقات الخدمات المتكاملة مع خيار حجز الموعد وطلب السعر عبر **الواتساب** مباشرة **بدون إظهار أي أسعار**:
+
+```html
 <!DOCTYPE html>
-<html lang="en" dir="rtl" id="html-root">
+<html lang="en" dir="ltr" id="html-root">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,6 +45,7 @@
     .logo-crop-hero { width: 100%; max-width: 280px; height: 180px; overflow: hidden; border-radius: 20px; background: #ffffff; margin: 0 auto; box-shadow: 0 12px 30px rgba(0,0,0,0.65); border: 2px solid rgba(0,168,255,0.5); display: flex; align-items: center; justify-content: center; }
     .logo-crop-hero img { width: 100%; height: 100%; object-fit: contain; background: #ffffff; }
 
+    /* Racing Car Header Banner Styles */
     .racing-banner {
       width: 100%;
       height: 320px;
@@ -51,11 +55,11 @@
     }
   </style>
   <script>
-    function bookPackageViaWhatsApp() {
+    function bookPackageViaWhatsApp(packageName) {
+      const selectedPackage = document.getElementById(packageName).value;
       const vehicleType = document.getElementById('vehicle-type').value;
-      const servicePackage = document.getElementById('service-package').value;
       const carModel = document.getElementById('car-model').value || 'غير محدد';
-      const message = `مرحباً، أود حجز موعد وطلب تفاصيل باقة العناية:\n- الباقة: ${servicePackage}\n- حجم/فئة المركبة: ${vehicleType}\n- نوع وموديل السيارة: ${carModel}`;
+      const message = `مرحباً، أود الاستفسار وطلب سعر وحجز موعد لخدمة/باقة: "${selectedPackage}" لفئة المركبة: "${vehicleType}" (نوع السيارة: ${carModel}). يرجى تزويدي بالتفاصيل.`;
       const whatsappUrl = `https://wa.me/962776999555?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
     }
@@ -92,13 +96,13 @@
       </a>
 
       <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-titanium">
-        <a href="#packages-section" class="hover:text-white transition">خدماتنا وباقاتنا</a>
+        <a href="#request-quote" class="hover:text-white transition">باقات الخدمات والحجز</a>
         <a href="https://wa.me/962776999555" target="_blank" class="hover:text-white transition">التواصل المباشر</a>
       </nav>
 
       <div class="flex items-center gap-3">
         <a href="https://wa.me/962776999555" target="_blank" class="cyber-gradient text-white text-xs sm:text-sm font-bold px-5 py-2.5 rounded-full shadow-lg shadow-electric/25 hover:opacity-95 transition">
-          حجز موعدك الآن
+          تواصل عبر واتساب
         </a>
       </div>
     </div>
@@ -109,22 +113,133 @@
     <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1920&q=80" alt="Racing Car Detailing Banner" class="racing-banner" />
     <div class="absolute inset-0 bg-gradient-to-t from-[#0B0D12] via-transparent to-black/40 flex items-center justify-center">
       <div class="text-center px-4 space-y-2">
-        <span class="bg-electric/20 border border-electric/50 text-cyber text-xs px-4 py-1 rounded-full font-bold uppercase tracking-widest">احترافية فائقة في العناية بالسيارات</span>
+        <span class="bg-electric/20 border border-electric/50 text-cyber text-xs px-4 py-1 rounded-full font-bold uppercase tracking-widest">احترافية فائقة في سباقات العناية بالسيارات</span>
         <h2 class="text-2xl sm:text-4xl font-black text-white drop-shadow-md">أداء استثنائي وحماية مطلقة لمركبتك</h2>
       </div>
     </div>
   </div>
 
-  <!-- Packages & WhatsApp Booking Section (Replacing Smart Estimator) -->
-  <section id="packages-section" class="py-20 bg-carbon border-b border-white/10 text-left rtl:text-right">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center max-w-3xl mx-auto mb-14">
-        <span class="text-xs font-bold uppercase tracking-widest text-cyber">باقات الخدمات والحجز المباشر</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">اختر باقة العناية المناسبة لسيارتك واحجز موعدك عبر واتساب</h2>
-        <p class="text-titanium text-sm mt-3">نقدم حلول عناية متكاملة لسيارتك. اختر الباقة وفئة السيارة لتنسيق موعد الحجز والاستشارة مباشرة.</p>
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden py-20 lg:py-28 border-b border-white/10" style="background: radial-gradient(circle at 80% 20%, rgba(0, 168, 255, 0.18), transparent 50%), linear-gradient(180deg, #0B0D12 0%, #131722 100%);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12 items-center">
+      
+      <div class="lg:col-span-7 space-y-6 text-left rtl:text-right">
+        <div class="inline-flex items-center gap-2 bg-electric/15 border border-electric/40 text-cyber px-4 py-1.5 rounded-full text-xs uppercase tracking-widest font-bold">
+          <span>⚡</span>
+          <span>وكيل معتمد لمنتجات سينفنكو الألمانية</span>
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight tracking-tight text-white">
+          أفضل خدمة للعناية بسيارتك في الكرك
+        </h1>
+        <p class="text-titanium text-base sm:text-lg max-w-2xl leading-relaxed">
+          في مركز العضايلة، نقدم أرقى خدمات الدراي كلين الفاخرة، زيوت سينفنكو الألمانية الأصلية، محسنات الأداء المتقدمة، تنظيف الكتلايزر، والبولش والنانوسيراميك الاحترافي.
+        </p>
+
+        <div class="flex flex-wrap gap-4 pt-2">
+          <a href="#request-quote" class="cyber-gradient text-white font-bold px-8 py-4 rounded-full shadow-xl shadow-electric/25 hover:opacity-95 transition">
+            اختر باقتك واطلب السعر عبر واتساب ←
+          </a>
+          <a href="https://wa.me/962776999555" target="_blank" class="bg-white/5 hover:bg-white/10 border border-white/15 text-white font-semibold px-7 py-4 rounded-full transition">
+            تواصل عبر واتساب
+          </a>
+        </div>
       </div>
 
-      <div class="grid lg:grid-cols-12 gap-10 items-center">
-        
-        <!-- Left Side: Interactive Package Details -->
-        <div class="lg:col-span-6 glass-panel p-8 rounded-3xl
+      <!-- Featured Emblem Card -->
+      <div class="lg:col-span-5">
+        <div class="glass-panel rounded-3xl p-7 shadow-2xl space-y-6 border border-electric/30 text-center">
+          
+          <div class="logo-crop-hero">
+            <img src="Chrome ADAILEH Car Care Emblem.png" alt="Adaileh Car Care Center Official Emblem" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%2300A8FF\' width=\'80\' height=\'80\'><path d=\'M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.22.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.04 3H5.81l1.04-3zM19 17H5v-4.66l.12-.34h13.76l.12.34V17z\'/><circle cx=\'7.5\' cy=\'14.5\' r=\'1.5\'/><circle cx=\'16.5\' cy=\'14.5\' r=\'1.5\'/></svg>'"/>
+          </div>
+
+          <div class="space-y-3 text-sm text-left rtl:text-right pt-2 border-t border-white/10">
+            <div class="p-4 rounded-2xl bg-obsidian/80 border border-white/10 flex justify-between items-center">
+              <div>
+                <div class="font-bold text-white text-xs">منتجات سينفنكو الألمانية الأصلية</div>
+              </div>
+              <span class="text-cyber font-bold text-xs">وكيل معتمد</span>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-obsidian/80 border border-white/10 flex justify-between items-center">
+              <div>
+                <div class="font-bold text-white text-xs">العناية الشاملة بالسيارات في الكرك</div>
+              </div>
+              <span class="text-cyber font-bold text-xs">جودة فائقة</span>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a href="tel:+962776999555" class="flex-1 bg-white/10 hover:bg-white/15 text-center py-3 rounded-xl text-xs font-bold text-white transition">
+              📞 اتصال مباشر
+            </a>
+            <a href="https://wa.me/962776999555" target="_blank" class="flex-1 cyber-gradient text-center py-3 rounded-xl text-xs font-bold text-white transition">
+              💬 واتساب
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Service Packages & WhatsApp Booking Section (No Prices) -->
+  <section id="request-quote" class="py-20 bg-carbon border-b border-white/10 text-left rtl:text-right">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="glass-panel p-8 sm:p-12 rounded-3xl border border-electric/40 space-y-8">
+        <div class="text-center space-y-3">
+          <span class="text-xs font-bold uppercase tracking-widest text-cyber">باقات الخدمات والحجز المباشر</span>
+          <h2 class="text-3xl font-extrabold text-white">اختر باقة العناية المناسبة لسيارتك واطلب السعر عبر واتساب</h2>
+          <p class="text-titanium text-sm">حدد نوع مركبتك وباقة الخدمة المطلوبة دون أسعار معلنة، وسنقوم بالرد عليك فوراً عبر الواتساب لتنسيق موعد المعاينة وتقديم عرض السعر.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-bold uppercase text-titanium mb-2">اختر فئة وحجم المركبة:</label>
+            <select id="vehicle-type" class="w-full p-4 rounded-xl bg-obsidian border border-white/15 text-white text-sm font-semibold focus:border-electric focus:outline-none">
+              <option value="صالون / هاتشباك (Sedan / Hatchback)">صالون / هاتشباك (Sedan / Hatchback)</option>
+              <option value="جيب وسط / كروس أوفر (Mid-Size SUV)">جيب وسط / كروس أوفر (Mid-Size SUV)</option>
+              <option value="دفع رباعي كبير / بكب (Large SUV / 4x4)">دفع رباعي كبير / بكب (Large SUV / 4x4)</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold uppercase text-titanium mb-2">اختر باقة الخدمة المطلوبة:</label>
+            <select id="service-package" class="w-full p-4 rounded-xl bg-obsidian border border-white/15 text-white text-sm font-semibold focus:border-electric focus:outline-none">
+              <option value="9H Nano-Ceramic Shield (نانوسيراميك حماية الطلاء 9H)">9H Nano-Ceramic Shield (نانوسيراميك حماية الطلاء 9H)</option>
+              <option value="VIP Interior Dry Clean & Sterilization (دراي كلين وتعقيم داخلي فاخر)">VIP Interior Dry Clean & Sterilization (دراي كلين وتعقيم داخلي فاخر)</option>
+              <option value="German Sampingko Motor Oils (زيوت سينفنكو الألمانية)">German Sampingko Motor Oils (زيوت سينفنكو الألمانية)</option>
+              <option value="Advanced Performance Additives (محسنات أداء وعزم المحرك)">Advanced Performance Additives (محسنات أداء وعزم المحرك)</option>
+              <option value="Catalytic Converter Deep Cleaning (تنظيف وعلاج الكتلايزر)">Catalytic Converter Deep Cleaning (تنظيف وعلاج الكتلايزر)</option>
+              <option value="Multi-Stage Professional Polish (بولش وتصحيح طلاء احترافي)">Multi-Stage Professional Polish (بولش وتصحيح طلاء احترافي)</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase text-titanium mb-2">نوع وموديل السيارة (اختياري):</label>
+          <input id="car-model" type="text" placeholder="e.g., BMW X5, Kia EV6, Mercedes" class="w-full p-4 rounded-xl bg-obsidian border border-white/15 text-white text-sm focus:border-electric focus:outline-none" />
+        </div>
+
+        <div class="text-center pt-4">
+          <button onclick="bookPackageViaWhatsApp('service-package')" class="w-full cyber-gradient text-white font-bold py-4 px-10 rounded-2xl shadow-xl hover:opacity-90 transition text-base flex items-center justify-center gap-3">
+            <span>💬</span>
+            <span>طلب عرض السعر وحجز الموعد عبر واتساب</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-carbon border-t border-white/10 py-12 text-center text-xs text-titanium">
+    <div class="max-w-7xl mx-auto px-4 space-y-3">
+      <div class="font-bold text-white text-base">Adaileh Car Care Center | مركز العضايلة للعناية بالسيارات © 2026 جميع الحقوق محفوظة.</div>
+      <div>للحجز أو الاستفسار المباشر تواصل عبر الواتساب: <a href="https://wa.me/962776999555" class="text-cyber font-bold hover:underline" dir="ltr">+962 77 699 9555</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+```
