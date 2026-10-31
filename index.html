@@ -1,4 +1,4 @@
-إليك الكود المحدث بالكامل والنهائي لموقع **مركز العضايلة للعناية بالسيارات (Adaileh Car Care)**. تتضمن هذه النسخة صورة بانر سيارات السباق (Racing Car) في الهيدر، وقسم باقات الخدمات المتكاملة مع خيار حجز الموعد وطلب السعر عبر **الواتساب** مباشرة **بدون إظهار أي أسعار**:
+إليك النسخة الكاملة والنهائية لكود موقع **مركز العضايلة للعناية بالسيارات (Adaileh Car Care)** بالكامل. تتضمن هذه النسخة صورة سيارة السباق (Racing Car) في الهيدر، مع قوائم حجز باقات الخدمات وطلب الأسعار عبر الواتساب بدون أسعار معلنة:
 
 ```html
 <!DOCTYPE html>
@@ -58,8 +58,7 @@
     function bookPackageViaWhatsApp(packageName) {
       const selectedPackage = document.getElementById(packageName).value;
       const vehicleType = document.getElementById('vehicle-type').value;
-      const carModel = document.getElementById('car-model').value || 'غير محدد';
-      const message = `مرحباً، أود الاستفسار وطلب سعر وحجز موعد لخدمة/باقة: "${selectedPackage}" لفئة المركبة: "${vehicleType}" (نوع السيارة: ${carModel}). يرجى تزويدي بالتفاصيل.`;
+      const message = `مرحباً، أود الاستفسار وطلب سعر وحجز موعد لخدمة/باقة: "${selectedPackage}" لفئة المركبة: "${vehicleType}". يرجى تزويدي بالتفاصيل.`;
       const whatsappUrl = `https://wa.me/962776999555?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
     }
@@ -96,7 +95,8 @@
       </a>
 
       <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-titanium">
-        <a href="#request-quote" class="hover:text-white transition">باقات الخدمات والحجز</a>
+        <a href="#services" class="hover:text-white transition">خدماتنا وباقاتنا</a>
+        <a href="#request-quote" class="hover:text-white transition">طلب سعر وحجز عبر واتساب</a>
         <a href="https://wa.me/962776999555" target="_blank" class="hover:text-white transition">التواصل المباشر</a>
       </nav>
 
@@ -137,7 +137,7 @@
 
         <div class="flex flex-wrap gap-4 pt-2">
           <a href="#request-quote" class="cyber-gradient text-white font-bold px-8 py-4 rounded-full shadow-xl shadow-electric/25 hover:opacity-95 transition">
-            اختر باقتك واطلب السعر عبر واتساب ←
+            اطلب عرض سعر أو احجز عبر واتساب ←
           </a>
           <a href="https://wa.me/962776999555" target="_blank" class="bg-white/5 hover:bg-white/10 border border-white/15 text-white font-semibold px-7 py-4 rounded-full transition">
             تواصل عبر واتساب
@@ -183,14 +183,14 @@
     </div>
   </section>
 
-  <!-- Service Packages & WhatsApp Booking Section (No Prices) -->
+  <!-- Request Price & Book via WhatsApp Section -->
   <section id="request-quote" class="py-20 bg-carbon border-b border-white/10 text-left rtl:text-right">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="glass-panel p-8 sm:p-12 rounded-3xl border border-electric/40 space-y-8">
         <div class="text-center space-y-3">
-          <span class="text-xs font-bold uppercase tracking-widest text-cyber">باقات الخدمات والحجز المباشر</span>
-          <h2 class="text-3xl font-extrabold text-white">اختر باقة العناية المناسبة لسيارتك واطلب السعر عبر واتساب</h2>
-          <p class="text-titanium text-sm">حدد نوع مركبتك وباقة الخدمة المطلوبة دون أسعار معلنة، وسنقوم بالرد عليك فوراً عبر الواتساب لتنسيق موعد المعاينة وتقديم عرض السعر.</p>
+          <span class="text-xs font-bold uppercase tracking-widest text-cyber">خدمة العملاء المباشرة</span>
+          <h2 class="text-3xl font-extrabold text-white">اختر خدمتك وباقة العناية لطلب السعر والحجز عبر واتساب</h2>
+          <p class="text-titanium text-sm">حدد نوع مركبتك وباقة الخدمة المطلوبة، وسنقوم بالرد عليك فوراً عبر الواتساب لتقديم عرض سعر مخصص وحجز الموعد.</p>
         </div>
 
         <div class="grid sm:grid-cols-2 gap-6">
@@ -216,13 +216,8 @@
           </div>
         </div>
 
-        <div>
-          <label class="block text-xs font-bold uppercase text-titanium mb-2">نوع وموديل السيارة (اختياري):</label>
-          <input id="car-model" type="text" placeholder="e.g., BMW X5, Kia EV6, Mercedes" class="w-full p-4 rounded-xl bg-obsidian border border-white/15 text-white text-sm focus:border-electric focus:outline-none" />
-        </div>
-
         <div class="text-center pt-4">
-          <button onclick="bookPackageViaWhatsApp('service-package')" class="w-full cyber-gradient text-white font-bold py-4 px-10 rounded-2xl shadow-xl hover:opacity-90 transition text-base flex items-center justify-center gap-3">
+          <button onclick="bookPackageViaWhatsApp('service-package')" class="cyber-gradient text-white font-bold py-4 px-10 rounded-2xl shadow-xl hover:opacity-90 transition text-base flex items-center justify-center gap-3 mx-auto">
             <span>💬</span>
             <span>طلب عرض السعر وحجز الموعد عبر واتساب</span>
           </button>
